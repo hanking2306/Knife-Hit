@@ -11,7 +11,7 @@ cc.Class({
     },
 
     loadScene(){
-        cc.director.loadScene('Game');
+        cc.director.loadScene('Level 1');
     },
 
     start () {

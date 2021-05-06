@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "dart",
+    "_name": "Knife",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -37,8 +37,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 636,
-      "height": 1918
+      "width": 400,
+      "height": 2500
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -48,7 +48,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -475,
+      "y": -390.69,
       "z": 0
     },
     "_scale": {
@@ -85,10 +85,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "c0abe46a-d00e-4a50-92b7-fab528d3aea6"
+      "__uuid__": "47f734a9-9080-4557-805b-1d59b4be5e37"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
