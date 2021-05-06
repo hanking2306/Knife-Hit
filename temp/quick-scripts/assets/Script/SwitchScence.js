@@ -15,7 +15,7 @@ cc.Class({
         this.button.node.on('click', this.loadScene, this);
     },
     loadScene: function loadScene() {
-        cc.director.loadScene('Game');
+        cc.director.loadScene('Level 1');
     },
     start: function start() {}
 }

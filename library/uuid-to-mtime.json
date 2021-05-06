@@ -420,7 +420,7 @@
     "relativePath": "model\\primitives.fbx"
   },
   "3c0ab579-ed57-4c73-8a09-1901f1085077": {
-    "asset": 1620136351413,
+    "asset": 1620225753327,
     "meta": 1620023923782,
     "relativePath": "Textures"
   },
@@ -434,20 +434,15 @@
     "meta": 1620023948977,
     "relativePath": "Textures\\bg.jpg"
   },
-  "bc4839d7-bbbe-4ef5-adaf-ae798e220cf3": {
-    "asset": 1620023953279,
-    "meta": 1620023953597,
-    "relativePath": "Textures\\Player\\dart.png"
-  },
   "c001429b-cca0-48f0-94eb-f7adad7195fa": {
-    "asset": 1620138898431,
+    "asset": 1620310664923,
     "meta": 1620024029195,
     "relativePath": "Script"
   },
   "60581f78-a584-4d19-b987-a73bd59ef093": {
-    "asset": 1620136370034,
-    "meta": 1620136427914,
-    "relativePath": "Scence\\Game.fire"
+    "asset": 1620311750015,
+    "meta": 1620311750040,
+    "relativePath": "Scence\\Level 1.fire"
   },
   "02840791-9f47-4994-aa1b-50732926dff9": {
     "asset": 1620134665938,
@@ -459,64 +454,104 @@
     "meta": 1620134994524,
     "relativePath": "Textures\\Player\\KH_B3.png"
   },
-  "84ee67ce-fd3a-49cb-b9b3-f8ebbbcef8a4": {
-    "asset": 1620135774187,
-    "meta": 1620135774205,
-    "relativePath": "Textures\\Player\\dart.prefab"
-  },
   "b915d6f9-e91a-48ca-93a9-de820aebae84": {
     "asset": 1620137728637,
     "meta": 1620136280209,
     "relativePath": "Textures\\Background"
   },
   "7609f3c5-41e2-42b6-8a86-dd1915d64864": {
-    "asset": 1620136351413,
+    "asset": 1620307937216,
     "meta": 1620136330341,
     "relativePath": "Textures\\Player"
   },
   "d923f00a-4447-446a-b18b-a4653e21f5d1": {
-    "asset": 1620140331446,
-    "meta": 1620140331478,
+    "asset": 1620309753394,
+    "meta": 1620309753413,
     "relativePath": "Scence\\Menu.fire"
   },
   "7308c16f-43b7-4fa6-ad6e-73b56c466958": {
-    "asset": 1620136442723,
+    "asset": 1620309704182,
     "meta": 1620136414387,
     "relativePath": "Scence"
   },
-  "b7661e9c-8b39-4da9-bd04-f77aa0aacc5e": {
-    "asset": 1620136532585,
-    "meta": 1620136722555,
-    "relativePath": "Script\\Throw.js"
-  },
   "5c2c9e85-8d15-40a9-84fe-cf51dc176c97": {
-    "asset": 1620138383707,
+    "asset": 1620309958561,
     "meta": 1620137046194,
     "relativePath": "Icon"
   },
   "41671d7e-d2aa-46ef-ad2d-4d9c8bbdbd84": {
     "asset": 1620137052247,
-    "meta": 1620138383752,
-    "relativePath": "Icon\\rank.png"
+    "meta": 1620227578678,
+    "relativePath": "Icon\\Rank.png"
   },
   "be43f906-6ef0-4bfd-b9d2-8837c2415ad6": {
     "asset": 1620137057015,
-    "meta": 1620137057064,
-    "relativePath": "Icon\\play.png"
+    "meta": 1620227573453,
+    "relativePath": "Icon\\Play.png"
   },
   "8053c5eb-8281-47e2-a6d9-34c91d6dc3a8": {
     "asset": 1620137063619,
-    "meta": 1620137063665,
-    "relativePath": "Icon\\setting.png"
+    "meta": 1620227585408,
+    "relativePath": "Icon\\Setting.png"
   },
   "7a3692a8-c916-4d41-86d7-28caba70cc08": {
     "asset": 1620137728626,
     "meta": 1620137728698,
     "relativePath": "Textures\\Background\\pngkey.com-hit-png-1256067.png"
   },
+  "ee721636-a74c-4a47-8e9c-99ee0f8dc12e": {
+    "asset": 1620222520506,
+    "meta": 1620307753855,
+    "relativePath": "Textures\\Player\\Knife.png"
+  },
+  "cfa6934b-8a0d-40d6-8026-e382fc55fcf9": {
+    "asset": 1620225724188,
+    "meta": 1620225724209,
+    "relativePath": "Textures\\Player\\Knife.prefab"
+  },
+  "98f80ac1-d462-4b3a-9a35-fb53e83c02a8": {
+    "asset": 1620311639859,
+    "meta": 1620311639916,
+    "relativePath": "Scence\\Restart.fire"
+  },
+  "a104d37e-56b4-4206-a372-bb1bb20d19a1": {
+    "asset": 1620227566992,
+    "meta": 1620227567075,
+    "relativePath": "Icon\\Home.png"
+  },
+  "e5083621-13f0-4452-aa7e-e31a4d93e31b": {
+    "asset": 1620228319688,
+    "meta": 1620228319813,
+    "relativePath": "Textures\\Player\\knife_hit_wheel.png"
+  },
+  "086e469f-98c1-48b6-9d4f-a3e2e51c4786": {
+    "asset": 1620307937195,
+    "meta": 1620307937216,
+    "relativePath": "Textures\\Player\\Knife - 001.prefab"
+  },
+  "92881407-e179-477c-be45-434797f0f938": {
+    "asset": 1620309684701,
+    "meta": 1620309692144,
+    "relativePath": "Scence\\Level 2.fire"
+  },
   "dfa956ff-e9c7-48e9-b556-400af768ed3f": {
-    "asset": 1620140739344,
-    "meta": 1620141035330,
+    "asset": 1620309723995,
+    "meta": 1620309725177,
     "relativePath": "Script\\SwitchScence.js"
+  },
+  "1fac2746-ac2a-42b5-bf6a-9511f67e06b2": {
+    "asset": 1620309951714,
+    "meta": 1620309958594,
+    "relativePath": "Icon\\Replay.png"
+  },
+  "8c7cecab-e738-477a-a089-3a4328802c7c": {
+    "asset": 1620311588892,
+    "meta": 1620311589557,
+    "relativePath": "Script\\GameOver.js"
+  },
+  "6cb9ce03-6031-44fd-902e-6fd9b4f2aba7": {
+    "asset": 1620311678097,
+    "meta": 1620311679880,
+    "relativePath": "Script\\Throw.js"
   }
 }
