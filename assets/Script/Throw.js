@@ -50,7 +50,7 @@ cc.Class({
                         if(isHit){
                             this.knifeNode.runAction(cc.sequence(
                                     cc.spawn(
-                                        cc.rotateTo(0.1, 60),
+                                        cc.rotateBy(0.1, 360),
                                         cc.moveTo(0.1, cc.v2(this.knifeNode.x, -800))
                                     ),
                                     cc.callFunc(()=>{
