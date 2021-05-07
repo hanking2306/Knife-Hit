@@ -14,7 +14,8 @@ cc.Class({
         layoutKnife: cc.Layout,
         labelScore: cc.Label,
         score: 0,
-        numberKnife: 0
+        numberKnife: 0,
+        level: 1
     },
 
     onLoad: function onLoad() {
@@ -74,8 +75,12 @@ cc.Class({
                 }
 
                 if (isHit) {
-                    _this2.knifeNode.runAction(cc.sequence(cc.spawn(cc.rotateTo(0.1, 60), cc.moveTo(0.1, cc.v2(_this2.knifeNode.x, -800))), cc.callFunc(function () {
-                        cc.director.loadScene('Restart');
+                    _this2.knifeNode.runAction(cc.sequence(cc.spawn(cc.rotateBy(0.1, 360), cc.moveTo(0.1, cc.v2(_this2.knifeNode.x, -800))), cc.callFunc(function () {
+                        cc.director.loadScene('Restart', function () {
+                            var getCompo = cc.director.getScene().getChildByName('Canvas').getComponent('GameOver');
+                            getCompo.setScore(_this2.score);
+                            getCompo.setLevel(_this2.level);
+                        });
                     })));
                 } else {
                     var _knifeNode = cc.instantiate(_this2.knifePrefab);

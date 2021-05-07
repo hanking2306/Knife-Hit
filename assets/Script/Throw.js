@@ -9,6 +9,7 @@ cc.Class({
        labelScore: cc.Label,
        score: 0,
        numberKnife: 0,
+       level: 1,
     },
 
     onLoad () {
@@ -54,7 +55,12 @@ cc.Class({
                                         cc.moveTo(0.1, cc.v2(this.knifeNode.x, -800))
                                     ),
                                     cc.callFunc(()=>{
-                                        cc.director.loadScene('Restart');
+                                        cc.director.loadScene('Restart', ()=>{
+                                            var getCompo = cc.director.getScene().getChildByName('Canvas').getComponent('GameOver');
+                                            getCompo.setScore(this.score);
+                                            getCompo.setLevel(this.level);
+                                        });
+            
                                     })
                                 )
                             );
@@ -78,7 +84,7 @@ cc.Class({
     },
 
     start () {
-        
+
     },
 
     update (dt) {

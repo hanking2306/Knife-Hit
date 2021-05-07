@@ -1,23 +1,39 @@
-var gameOver = require('Throw');
+
 cc.Class({
-    extends: gameOver,
+    extends: cc.Component,
 
     properties: {
-        restartButton: cc.Button,
+        scoreEndGame: cc.Label,
+        levelEndGame: cc.Label,
+        score: 0,
+        level: 0,
     },
 
-    
+    setScore(value){
+        this.score = value;
+    },
+
+    setLevel(value){
+        this.level = value;
+    },
 
     onLoad () {
-        this.restartButton.node.on('click', this.replay, this);
+
     },
 
     replay(){
-        cc.log(this.score);
+        cc.director.loadScene('Level 1');
     },
 
-    start () {
+    goHome(){
+        cc.director.loadScene('Home');
+    },
 
+
+
+    start () {
+        this.scoreEndGame.string = this.score;
+        this.levelEndGame.string = "Level " + this.level;
     },
 
     // update (dt) {},
