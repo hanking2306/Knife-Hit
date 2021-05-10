@@ -1,68 +1,75 @@
-2021-05-07T18:20:10.516Z - normal: Load ~/.CocosCreator/settings.json
-2021-05-07T18:20:11.677Z - normal: Initializing Asset Database
-2021-05-07T18:20:11.677Z - normal: checking language setting...
-2021-05-07T18:20:11.677Z - normal: Language: en
-2021-05-07T18:20:12.505Z - success: preview server running at http://localhost:7456
-2021-05-07T18:20:12.505Z - success: protocol editor-framework registered
-2021-05-07T18:20:12.505Z - success: protocol app registered
-2021-05-07T18:20:12.505Z - success: protocol theme registered
-2021-05-07T18:20:12.505Z - success: protocol packages registered
-2021-05-07T18:20:12.505Z - success: protocol uuid registerred
-2021-05-07T18:20:12.505Z - success: protocol db registerred
-2021-05-07T18:20:12.505Z - success: protocol thumbnail registerred
-2021-05-07T18:20:12.505Z - success: protocol unpack registerred
-2021-05-07T18:20:12.505Z - success: protocol disable-commonjs registerred
-2021-05-07T18:20:13.099Z - normal: connected!
-2021-05-07T18:20:13.099Z - normal: Check project D:\Cocos\KnifeHit
-2021-05-07T18:20:13.099Z - normal: Initializing project D:\Cocos\KnifeHit
-2021-05-07T18:20:13.583Z - normal: Initializing Cocos2d
-2021-05-07T18:20:14.692Z - normal: Initializing engine extends
-2021-05-07T18:20:14.727Z - success: alipay-adapter loaded
-2021-05-07T18:20:14.730Z - success: asset-db-debugger loaded
-2021-05-07T18:20:14.730Z - success: baidu-adapter loaded
-2021-05-07T18:20:14.730Z - success: color-picker loaded
-2021-05-07T18:20:14.886Z - success: fb-audience-network loaded
-2021-05-07T18:20:14.949Z - success: fb-live-stream loaded
-2021-05-07T18:20:14.949Z - success: google-play-instant loaded
-2021-05-07T18:20:14.949Z - success: huawei-runtime loaded
-2021-05-07T18:20:15.230Z - success: cpk-publish loaded
-2021-05-07T18:20:15.230Z - success: jsb-adapter loaded
-2021-05-07T18:20:15.245Z - success: oppo-runtime loaded
-2021-05-07T18:20:15.245Z - success: package-manager loaded
-2021-05-07T18:20:15.386Z - success: qqplay-adapter loaded
-2021-05-07T18:20:15.386Z - success: runtime-dev-tools loaded
-2021-05-07T18:20:15.402Z - success: sdkbox loaded
-2021-05-07T18:20:15.402Z - success: tester loaded
-2021-05-07T18:20:15.402Z - success: ui-kit-preview-extra loaded
-2021-05-07T18:20:15.402Z - success: ui-kit-preview loaded
-2021-05-07T18:20:15.402Z - success: ui-kit loaded
-2021-05-07T18:20:15.417Z - success: vivo-runtime loaded
-2021-05-07T18:20:15.417Z - success: weapp-adapter loaded
-2021-05-07T18:20:15.417Z - success: xiaomi-adapter loaded
-2021-05-07T18:20:15.417Z - success: alipay-minigame loaded
-2021-05-07T18:20:15.480Z - success: assets loaded
-2021-05-07T18:20:15.480Z - success: builder loaded
-2021-05-07T18:20:15.792Z - success: cocos-services loaded
-2021-05-07T18:20:15.792Z - success: console loaded
-2021-05-07T18:20:15.839Z - success: fb-instant-games loaded
-2021-05-07T18:20:15.839Z - success: game-window loaded
-2021-05-07T18:20:15.855Z - success: google-instant-games loaded
-2021-05-07T18:20:15.855Z - success: hierarchy loaded
-2021-05-07T18:20:15.870Z - success: inspector loaded
-2021-05-07T18:20:15.870Z - success: keystore loaded
-2021-05-07T18:20:15.870Z - success: node-library loaded
-2021-05-07T18:20:15.870Z - success: package-asset loaded
-2021-05-07T18:20:15.870Z - success: preferences loaded
-2021-05-07T18:20:15.886Z - success: project-exporter loaded
-2021-05-07T18:20:15.886Z - success: project-importer loaded
-2021-05-07T18:20:15.886Z - success: project-settings loaded
-2021-05-07T18:20:15.886Z - success: scene loaded
-2021-05-07T18:20:15.886Z - success: simulator-debugger loaded
-2021-05-07T18:20:15.902Z - success: sprite-editor loaded
-2021-05-07T18:20:15.902Z - success: store loaded
-2021-05-07T18:20:15.902Z - success: timeline loaded
-2021-05-07T18:20:15.917Z - success: xiaomi-runtime loaded
-2021-05-07T18:20:17.252Z - normal: Loading packages
-2021-05-07T18:20:17.252Z - normal: Watching packages
-2021-05-07T18:20:17.944Z - normal: Run Application
-2021-05-07T18:20:19.127Z - info: Cocos Services load base data!
+2021-05-10T17:09:47.834Z - normal: Load ~/.CocosCreator/settings.json
+2021-05-10T17:09:49.131Z - normal: Initializing Asset Database
+2021-05-10T17:09:49.146Z - normal: checking language setting...
+2021-05-10T17:09:49.146Z - normal: Language: en
+2021-05-10T17:09:50.209Z - success: preview server running at http://localhost:7456
+2021-05-10T17:09:50.224Z - success: protocol editor-framework registered
+2021-05-10T17:09:50.224Z - success: protocol app registered
+2021-05-10T17:09:50.224Z - success: protocol theme registered
+2021-05-10T17:09:50.224Z - success: protocol packages registered
+2021-05-10T17:09:50.224Z - success: protocol uuid registerred
+2021-05-10T17:09:50.224Z - success: protocol db registerred
+2021-05-10T17:09:50.224Z - success: protocol thumbnail registerred
+2021-05-10T17:09:50.224Z - success: protocol unpack registerred
+2021-05-10T17:09:50.224Z - success: protocol disable-commonjs registerred
+2021-05-10T17:09:51.131Z - normal: connected!
+2021-05-10T17:09:51.131Z - normal: Check project D:\Cocos\Knife-Hit
+2021-05-10T17:09:51.146Z - normal: Initializing project D:\Cocos\Knife-Hit
+2021-05-10T17:09:51.724Z - normal: Initializing Cocos2d
+2021-05-10T17:09:53.139Z - normal: Initializing engine extends
+2021-05-10T17:09:53.202Z - success: alipay-adapter loaded
+2021-05-10T17:09:53.202Z - success: asset-db-debugger loaded
+2021-05-10T17:09:53.217Z - success: baidu-adapter loaded
+2021-05-10T17:09:53.217Z - success: color-picker loaded
+2021-05-10T17:09:53.405Z - success: fb-audience-network loaded
+2021-05-10T17:09:53.514Z - success: fb-live-stream loaded
+2021-05-10T17:09:53.514Z - success: google-play-instant loaded
+2021-05-10T17:09:53.530Z - success: huawei-runtime loaded
+2021-05-10T17:09:53.971Z - success: cpk-publish loaded
+2021-05-10T17:09:53.971Z - success: jsb-adapter loaded
+2021-05-10T17:09:53.979Z - success: oppo-runtime loaded
+2021-05-10T17:09:53.987Z - success: package-manager loaded
+2021-05-10T17:09:54.200Z - success: qqplay-adapter loaded
+2021-05-10T17:09:54.200Z - success: runtime-dev-tools loaded
+2021-05-10T17:09:54.216Z - success: sdkbox loaded
+2021-05-10T17:09:54.216Z - success: tester loaded
+2021-05-10T17:09:54.216Z - success: ui-kit-preview-extra loaded
+2021-05-10T17:09:54.231Z - success: ui-kit-preview loaded
+2021-05-10T17:09:54.231Z - success: ui-kit loaded
+2021-05-10T17:09:54.247Z - success: vivo-runtime loaded
+2021-05-10T17:09:54.247Z - success: weapp-adapter loaded
+2021-05-10T17:09:54.247Z - success: xiaomi-adapter loaded
+2021-05-10T17:09:54.247Z - success: alipay-minigame loaded
+2021-05-10T17:09:54.309Z - success: assets loaded
+2021-05-10T17:09:54.309Z - success: builder loaded
+2021-05-10T17:09:54.700Z - success: cocos-services loaded
+2021-05-10T17:09:54.700Z - success: console loaded
+2021-05-10T17:09:54.747Z - success: fb-instant-games loaded
+2021-05-10T17:09:54.747Z - success: game-window loaded
+2021-05-10T17:09:54.747Z - success: google-instant-games loaded
+2021-05-10T17:09:54.762Z - success: hierarchy loaded
+2021-05-10T17:09:54.762Z - success: inspector loaded
+2021-05-10T17:09:54.778Z - success: keystore loaded
+2021-05-10T17:09:54.778Z - success: node-library loaded
+2021-05-10T17:09:54.778Z - success: package-asset loaded
+2021-05-10T17:09:54.778Z - success: preferences loaded
+2021-05-10T17:09:54.778Z - success: project-exporter loaded
+2021-05-10T17:09:54.794Z - success: project-importer loaded
+2021-05-10T17:09:54.794Z - success: project-settings loaded
+2021-05-10T17:09:54.794Z - success: scene loaded
+2021-05-10T17:09:54.794Z - success: simulator-debugger loaded
+2021-05-10T17:09:54.794Z - success: sprite-editor loaded
+2021-05-10T17:09:54.809Z - success: store loaded
+2021-05-10T17:09:54.809Z - success: timeline loaded
+2021-05-10T17:09:54.825Z - success: xiaomi-runtime loaded
+2021-05-10T17:09:56.027Z - warn: [db-task][init] uuid collision, the uuid(5c2c9e85-8d15-40a9-84fe-cf51dc176c97) for D:\Cocos\Knife-Hit\assets\Icon is already used. A new uuid(1635a829-82a1-4087-9adf-119d25b07a0a) will be assigned.
+2021-05-10T17:09:56.121Z - warn: [db-task][init] uuid collision, the uuid(d923f00a-4447-446a-b18b-a4653e21f5d1) for D:\Cocos\Knife-Hit\assets\Scence\Menu.fire is already used. A new uuid(d6279536-529c-45e7-89f5-d8e949a32619) will be assigned.
+2021-05-10T17:09:56.121Z - warn: [db-task][init] uuid collision, the uuid(98f80ac1-d462-4b3a-9a35-fb53e83c02a8) for D:\Cocos\Knife-Hit\assets\Scence\Restart.fire is already used. A new uuid(b6989b05-d01c-4421-a727-dc20088a3b1f) will be assigned.
+2021-05-10T17:09:56.245Z - warn: [db-task][init] uuid collision, the uuid(7a3692a8-c916-4d41-86d7-28caba70cc08) for D:\Cocos\Knife-Hit\assets\Textures\Logo\pngkey.com-hit-png-1256067.png is already used. A new uuid(f6051e93-7c6c-4423-94c6-d52851546ccf) will be assigned.
+2021-05-10T17:09:56.245Z - warn: [db-task][init] uuid collision, the uuid(139bd102-2e8a-4f1e-a0f1-44b7b7d553a2) for D:\Cocos\Knife-Hit\assets\Textures\Logo\pngkey.com-hit-png-1256067.png\pngkey.com-hit-png-1256067 is already used. A new uuid(06819db7-9824-449b-b769-8ccb32ae2ee0) will be assigned.
+2021-05-10T17:09:56.308Z - warn: [db-task][init] uuid collision, the uuid(086e469f-98c1-48b6-9d4f-a3e2e51c4786) for D:\Cocos\Knife-Hit\assets\Textures\Player\Knife - O.prefab is already used. A new uuid(d9cedd57-1a1d-4d34-8dbb-bf7bc5e34d59) will be assigned.
+2021-05-10T17:09:58.243Z - info: Cocos Services load base data!
+2021-05-10T17:09:58.459Z - normal: Loading packages
+2021-05-10T17:09:58.459Z - normal: Watching packages
+2021-05-10T17:09:59.380Z - normal: Run Application
+2021-05-10T17:10:21.982Z - info: shutdown preview server

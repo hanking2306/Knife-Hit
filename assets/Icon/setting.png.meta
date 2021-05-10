@@ -9,7 +9,7 @@
   "packable": true,
   "platformSettings": {},
   "subMetas": {
-    "Setting": {
+    "setting": {
       "ver": "1.0.4",
       "uuid": "ae32f49d-2abf-4865-85af-4f6c71d0c3f6",
       "rawTextureUuid": "8053c5eb-8281-47e2-a6d9-34c91d6dc3a8",

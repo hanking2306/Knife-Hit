@@ -94,6 +94,18 @@
       "y": 84,
       "width": 516,
       "height": 539
+    },
+    "preferences": {
+      "x": 385,
+      "y": 84,
+      "width": 600,
+      "height": 565
+    },
+    "project-settings": {
+      "x": 385,
+      "y": 84,
+      "width": 600,
+      "height": 565
     }
   }
 }
