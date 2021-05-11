@@ -69,7 +69,7 @@
     "_level": 1,
     "_components": [
       {
-        "__id__": 52
+        "__id__": 53
       }
     ],
     "_prefab": null,
@@ -210,7 +210,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Game",
+    "_name": "Level 2",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -243,7 +243,11 @@
     ],
     "_active": true,
     "_level": 2,
-    "_components": [],
+    "_components": [
+      {
+        "__id__": 52
+      }
+    ],
     "_prefab": null,
     "_opacity": 255,
     "_color": {
@@ -255,8 +259,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 720,
+      "height": 1280
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -394,10 +398,10 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 45,
-    "_left": -360,
-    "_right": -360,
-    "_top": -640,
-    "_bottom": -640,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -442,7 +446,7 @@
     "score": 0,
     "numberKnife": 0,
     "level": 2,
-    "_id": "796Mww9q9JoobIjyjEnUBY"
+    "_id": "4ccEuL/j9P6o6YhS01rAr0"
   },
   {
     "__type__": "cc.Node",
@@ -1995,6 +1999,33 @@
     "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "6euwYA2t9NMKEuyboJHwZg"
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_id": "8aHalrhsREQrfJaLpKLAY3"
   },
   {
     "__type__": "cc.Canvas",

@@ -1,75 +1,170 @@
-2021-05-10T17:09:47.834Z - normal: Load ~/.CocosCreator/settings.json
-2021-05-10T17:09:49.131Z - normal: Initializing Asset Database
-2021-05-10T17:09:49.146Z - normal: checking language setting...
-2021-05-10T17:09:49.146Z - normal: Language: en
-2021-05-10T17:09:50.209Z - success: preview server running at http://localhost:7456
-2021-05-10T17:09:50.224Z - success: protocol editor-framework registered
-2021-05-10T17:09:50.224Z - success: protocol app registered
-2021-05-10T17:09:50.224Z - success: protocol theme registered
-2021-05-10T17:09:50.224Z - success: protocol packages registered
-2021-05-10T17:09:50.224Z - success: protocol uuid registerred
-2021-05-10T17:09:50.224Z - success: protocol db registerred
-2021-05-10T17:09:50.224Z - success: protocol thumbnail registerred
-2021-05-10T17:09:50.224Z - success: protocol unpack registerred
-2021-05-10T17:09:50.224Z - success: protocol disable-commonjs registerred
-2021-05-10T17:09:51.131Z - normal: connected!
-2021-05-10T17:09:51.131Z - normal: Check project D:\Cocos\Knife-Hit
-2021-05-10T17:09:51.146Z - normal: Initializing project D:\Cocos\Knife-Hit
-2021-05-10T17:09:51.724Z - normal: Initializing Cocos2d
-2021-05-10T17:09:53.139Z - normal: Initializing engine extends
-2021-05-10T17:09:53.202Z - success: alipay-adapter loaded
-2021-05-10T17:09:53.202Z - success: asset-db-debugger loaded
-2021-05-10T17:09:53.217Z - success: baidu-adapter loaded
-2021-05-10T17:09:53.217Z - success: color-picker loaded
-2021-05-10T17:09:53.405Z - success: fb-audience-network loaded
-2021-05-10T17:09:53.514Z - success: fb-live-stream loaded
-2021-05-10T17:09:53.514Z - success: google-play-instant loaded
-2021-05-10T17:09:53.530Z - success: huawei-runtime loaded
-2021-05-10T17:09:53.971Z - success: cpk-publish loaded
-2021-05-10T17:09:53.971Z - success: jsb-adapter loaded
-2021-05-10T17:09:53.979Z - success: oppo-runtime loaded
-2021-05-10T17:09:53.987Z - success: package-manager loaded
-2021-05-10T17:09:54.200Z - success: qqplay-adapter loaded
-2021-05-10T17:09:54.200Z - success: runtime-dev-tools loaded
-2021-05-10T17:09:54.216Z - success: sdkbox loaded
-2021-05-10T17:09:54.216Z - success: tester loaded
-2021-05-10T17:09:54.216Z - success: ui-kit-preview-extra loaded
-2021-05-10T17:09:54.231Z - success: ui-kit-preview loaded
-2021-05-10T17:09:54.231Z - success: ui-kit loaded
-2021-05-10T17:09:54.247Z - success: vivo-runtime loaded
-2021-05-10T17:09:54.247Z - success: weapp-adapter loaded
-2021-05-10T17:09:54.247Z - success: xiaomi-adapter loaded
-2021-05-10T17:09:54.247Z - success: alipay-minigame loaded
-2021-05-10T17:09:54.309Z - success: assets loaded
-2021-05-10T17:09:54.309Z - success: builder loaded
-2021-05-10T17:09:54.700Z - success: cocos-services loaded
-2021-05-10T17:09:54.700Z - success: console loaded
-2021-05-10T17:09:54.747Z - success: fb-instant-games loaded
-2021-05-10T17:09:54.747Z - success: game-window loaded
-2021-05-10T17:09:54.747Z - success: google-instant-games loaded
-2021-05-10T17:09:54.762Z - success: hierarchy loaded
-2021-05-10T17:09:54.762Z - success: inspector loaded
-2021-05-10T17:09:54.778Z - success: keystore loaded
-2021-05-10T17:09:54.778Z - success: node-library loaded
-2021-05-10T17:09:54.778Z - success: package-asset loaded
-2021-05-10T17:09:54.778Z - success: preferences loaded
-2021-05-10T17:09:54.778Z - success: project-exporter loaded
-2021-05-10T17:09:54.794Z - success: project-importer loaded
-2021-05-10T17:09:54.794Z - success: project-settings loaded
-2021-05-10T17:09:54.794Z - success: scene loaded
-2021-05-10T17:09:54.794Z - success: simulator-debugger loaded
-2021-05-10T17:09:54.794Z - success: sprite-editor loaded
-2021-05-10T17:09:54.809Z - success: store loaded
-2021-05-10T17:09:54.809Z - success: timeline loaded
-2021-05-10T17:09:54.825Z - success: xiaomi-runtime loaded
-2021-05-10T17:09:56.027Z - warn: [db-task][init] uuid collision, the uuid(5c2c9e85-8d15-40a9-84fe-cf51dc176c97) for D:\Cocos\Knife-Hit\assets\Icon is already used. A new uuid(1635a829-82a1-4087-9adf-119d25b07a0a) will be assigned.
-2021-05-10T17:09:56.121Z - warn: [db-task][init] uuid collision, the uuid(d923f00a-4447-446a-b18b-a4653e21f5d1) for D:\Cocos\Knife-Hit\assets\Scence\Menu.fire is already used. A new uuid(d6279536-529c-45e7-89f5-d8e949a32619) will be assigned.
-2021-05-10T17:09:56.121Z - warn: [db-task][init] uuid collision, the uuid(98f80ac1-d462-4b3a-9a35-fb53e83c02a8) for D:\Cocos\Knife-Hit\assets\Scence\Restart.fire is already used. A new uuid(b6989b05-d01c-4421-a727-dc20088a3b1f) will be assigned.
-2021-05-10T17:09:56.245Z - warn: [db-task][init] uuid collision, the uuid(7a3692a8-c916-4d41-86d7-28caba70cc08) for D:\Cocos\Knife-Hit\assets\Textures\Logo\pngkey.com-hit-png-1256067.png is already used. A new uuid(f6051e93-7c6c-4423-94c6-d52851546ccf) will be assigned.
-2021-05-10T17:09:56.245Z - warn: [db-task][init] uuid collision, the uuid(139bd102-2e8a-4f1e-a0f1-44b7b7d553a2) for D:\Cocos\Knife-Hit\assets\Textures\Logo\pngkey.com-hit-png-1256067.png\pngkey.com-hit-png-1256067 is already used. A new uuid(06819db7-9824-449b-b769-8ccb32ae2ee0) will be assigned.
-2021-05-10T17:09:56.308Z - warn: [db-task][init] uuid collision, the uuid(086e469f-98c1-48b6-9d4f-a3e2e51c4786) for D:\Cocos\Knife-Hit\assets\Textures\Player\Knife - O.prefab is already used. A new uuid(d9cedd57-1a1d-4d34-8dbb-bf7bc5e34d59) will be assigned.
-2021-05-10T17:09:58.243Z - info: Cocos Services load base data!
-2021-05-10T17:09:58.459Z - normal: Loading packages
-2021-05-10T17:09:58.459Z - normal: Watching packages
-2021-05-10T17:09:59.380Z - normal: Run Application
-2021-05-10T17:10:21.982Z - info: shutdown preview server
+2021-05-11T15:13:29.070Z - normal: Load ~/.CocosCreator/settings.json
+2021-05-11T15:13:30.391Z - normal: Initializing Asset Database
+2021-05-11T15:13:30.420Z - normal: checking language setting...
+2021-05-11T15:13:30.420Z - normal: Language: en
+2021-05-11T15:13:31.482Z - success: preview server running at http://localhost:7456
+2021-05-11T15:13:31.485Z - success: protocol editor-framework registered
+2021-05-11T15:13:31.485Z - success: protocol app registered
+2021-05-11T15:13:31.485Z - success: protocol theme registered
+2021-05-11T15:13:31.485Z - success: protocol packages registered
+2021-05-11T15:13:31.485Z - success: protocol uuid registerred
+2021-05-11T15:13:31.485Z - success: protocol db registerred
+2021-05-11T15:13:31.485Z - success: protocol thumbnail registerred
+2021-05-11T15:13:31.485Z - success: protocol unpack registerred
+2021-05-11T15:13:31.486Z - success: protocol disable-commonjs registerred
+2021-05-11T15:13:33.301Z - normal: connected!
+2021-05-11T15:13:33.303Z - normal: Check project D:\Cocos\Knife-Hit
+2021-05-11T15:13:33.305Z - normal: Initializing project D:\Cocos\Knife-Hit
+2021-05-11T15:13:33.903Z - normal: Initializing Cocos2d
+2021-05-11T15:13:35.264Z - normal: Initializing engine extends
+2021-05-11T15:13:35.300Z - success: alipay-adapter loaded
+2021-05-11T15:13:35.306Z - success: asset-db-debugger loaded
+2021-05-11T15:13:35.310Z - success: baidu-adapter loaded
+2021-05-11T15:13:35.313Z - success: color-picker loaded
+2021-05-11T15:13:35.519Z - success: fb-audience-network loaded
+2021-05-11T15:13:35.645Z - success: fb-live-stream loaded
+2021-05-11T15:13:35.649Z - success: google-play-instant loaded
+2021-05-11T15:13:35.658Z - success: huawei-runtime loaded
+2021-05-11T15:13:35.971Z - success: cpk-publish loaded
+2021-05-11T15:13:35.973Z - success: jsb-adapter loaded
+2021-05-11T15:13:35.981Z - success: oppo-runtime loaded
+2021-05-11T15:13:35.985Z - success: package-manager loaded
+2021-05-11T15:13:36.152Z - success: qqplay-adapter loaded
+2021-05-11T15:13:36.154Z - success: runtime-dev-tools loaded
+2021-05-11T15:13:36.161Z - success: sdkbox loaded
+2021-05-11T15:13:36.166Z - success: tester loaded
+2021-05-11T15:13:36.169Z - success: ui-kit-preview-extra loaded
+2021-05-11T15:13:36.172Z - success: ui-kit-preview loaded
+2021-05-11T15:13:36.176Z - success: ui-kit loaded
+2021-05-11T15:13:36.186Z - success: vivo-runtime loaded
+2021-05-11T15:13:36.188Z - success: weapp-adapter loaded
+2021-05-11T15:13:36.189Z - success: xiaomi-adapter loaded
+2021-05-11T15:13:36.195Z - success: alipay-minigame loaded
+2021-05-11T15:13:36.258Z - success: assets loaded
+2021-05-11T15:13:36.262Z - success: builder loaded
+2021-05-11T15:13:36.637Z - success: cocos-services loaded
+2021-05-11T15:13:36.643Z - success: console loaded
+2021-05-11T15:13:36.690Z - success: fb-instant-games loaded
+2021-05-11T15:13:36.694Z - success: game-window loaded
+2021-05-11T15:13:36.696Z - success: google-instant-games loaded
+2021-05-11T15:13:36.702Z - success: hierarchy loaded
+2021-05-11T15:13:36.712Z - success: inspector loaded
+2021-05-11T15:13:36.713Z - success: keystore loaded
+2021-05-11T15:13:36.719Z - success: node-library loaded
+2021-05-11T15:13:36.721Z - success: package-asset loaded
+2021-05-11T15:13:36.723Z - success: preferences loaded
+2021-05-11T15:13:36.726Z - success: project-exporter loaded
+2021-05-11T15:13:36.728Z - success: project-importer loaded
+2021-05-11T15:13:36.732Z - success: project-settings loaded
+2021-05-11T15:13:36.736Z - success: scene loaded
+2021-05-11T15:13:36.738Z - success: simulator-debugger loaded
+2021-05-11T15:13:36.740Z - success: sprite-editor loaded
+2021-05-11T15:13:36.746Z - success: store loaded
+2021-05-11T15:13:36.752Z - success: timeline loaded
+2021-05-11T15:13:36.761Z - success: xiaomi-runtime loaded
+2021-05-11T15:13:40.807Z - info: Cocos Services load base data!
+2021-05-11T15:13:51.109Z - normal: Loading packages
+2021-05-11T15:13:51.122Z - normal: Watching packages
+2021-05-11T15:13:51.990Z - normal: Run Application
+2021-05-11T15:18:54.804Z - warn: Script attached to "Background" in scene "Game.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/Game/Background"
+Asset url: "db://assets/Scence/Game.fire"
+Script UUID: "b7661e9c-8b39-4da9-bd04-f77aa0aacc5e"
+Class ID: "b76616cizlNqb0E93qgqsxe"
+
+2021-05-11T15:18:58.977Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scence/GameOver.fire"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:19:02.946Z - warn: Script attached to "Canvas" in scene "Restart.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scence/Restart.fire"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:19:03.020Z - warn: The Asset used by component "cc.Sprite" in scene "Restart.fire" is missing. Detailed information:
+Node path: "Canvas/Rank"
+Asset url: "db://assets/Scence/Restart.fire"
+Missing uuid: "c7b3bb72-55ee-463c-a756-bdf293619146"
+
+2021-05-11T15:19:03.021Z - warn: The Asset used by component "cc.Sprite" in scene "Restart.fire" is missing. Detailed information:
+Node path: "Canvas/ReplayButton/Replay"
+Asset url: "db://assets/Scence/Restart.fire"
+Missing uuid: "494772b5-b67e-488d-8df2-7016888bc565"
+
+2021-05-11T15:19:03.022Z - warn: The Asset used by component "cc.Sprite" in scene "Restart.fire" is missing. Detailed information:
+Node path: "Canvas/HomeButton/Home"
+Asset url: "db://assets/Scence/Restart.fire"
+Missing uuid: "bf526295-1779-40a9-ac5a-637699beb457"
+
+2021-05-11T15:19:08.475Z - warn: The Asset used by component "cc.Sprite" in scene "Menu.fire" is missing. Detailed information:
+Node path: "Canvas/Setting"
+Asset url: "db://assets/Scence/Menu.fire"
+Missing uuid: "ae32f49d-2abf-4865-85af-4f6c71d0c3f6"
+
+2021-05-11T15:19:08.476Z - warn: The Asset used by component "cc.Sprite" in scene "Menu.fire" is missing. Detailed information:
+Node path: "Canvas/Rank"
+Asset url: "db://assets/Scence/Menu.fire"
+Missing uuid: "c7b3bb72-55ee-463c-a756-bdf293619146"
+
+2021-05-11T15:19:08.476Z - warn: The Asset used by component "cc.Sprite" in scene "Menu.fire" is missing. Detailed information:
+Node path: "Canvas/Play Button/play"
+Asset url: "db://assets/Scence/Menu.fire"
+Missing uuid: "9c83a8b8-7f8f-419f-bca2-e48ee00a431b"
+
+2021-05-11T15:19:19.928Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scence/GameOver.fire"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:19:21.415Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:25:01.349Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scence/GameOver.fire"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:30:08.596Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scence/GameOver.fire"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:31:23.102Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:37:04.444Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scence/GameOver.fire"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:37:27.798Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:38:13.642Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:38:35.184Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+
+2021-05-11T15:38:47.559Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
+Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+

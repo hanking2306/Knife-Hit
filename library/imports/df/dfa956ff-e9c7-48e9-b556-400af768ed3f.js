@@ -1,22 +1,20 @@
 "use strict";
-cc._RF.push(module, 'dfa95b/6cdI6bVWQAr3aO0/', 'SwitchScence');
-// Script/SwitchScence.js
+cc._RF.push(module, 'dfa95b/6cdI6bVWQAr3aO0/', 'Home');
+// Script/Home Node/Home.js
 
 'use strict';
 
 cc.Class({
     extends: cc.Component,
 
-    properties: {
-        button: cc.Button
-    },
+    properties: {},
 
-    onLoad: function onLoad() {
-        this.button.node.on('click', this.loadScene, this);
-    },
-    loadScene: function loadScene() {
+    onLoad: function onLoad() {},
+    playGame: function playGame() {
         cc.director.loadScene('Level 1');
     },
+    settingGame: function settingGame() {},
+    rankGame: function rankGame() {},
     start: function start() {}
 }
 
