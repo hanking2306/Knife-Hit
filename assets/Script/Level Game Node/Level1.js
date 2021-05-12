@@ -40,7 +40,7 @@ cc.Class({
                             }
                         }
                         if(isHit){
-                            game.loseGame(this.knifeNode);
+                            game.loseGame(this.knifeNode, this.score, this.level);
                         } else {
                             let knifeNode = cc.instantiate(this.knifePrefab);
                             knifeNode.setPosition(this.knifeNode.position);

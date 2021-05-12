@@ -1,400 +1,85 @@
-2021-05-12T02:35:12.790Z - normal: Load ~/.CocosCreator/settings.json
-2021-05-12T02:35:12.838Z - normal: Initializing Asset Database
-2021-05-12T02:35:12.840Z - normal: checking language setting...
-2021-05-12T02:35:12.840Z - normal: Language: en
-2021-05-12T02:35:13.511Z - success: preview server running at http://localhost:7456
-2021-05-12T02:35:13.521Z - success: protocol editor-framework registered
-2021-05-12T02:35:13.521Z - success: protocol app registered
-2021-05-12T02:35:13.522Z - success: protocol theme registered
-2021-05-12T02:35:13.522Z - success: protocol packages registered
-2021-05-12T02:35:13.522Z - success: protocol uuid registerred
-2021-05-12T02:35:13.522Z - success: protocol db registerred
-2021-05-12T02:35:13.522Z - success: protocol thumbnail registerred
-2021-05-12T02:35:13.522Z - success: protocol unpack registerred
-2021-05-12T02:35:13.522Z - success: protocol disable-commonjs registerred
-2021-05-12T02:35:14.977Z - normal: connected!
-2021-05-12T02:35:14.979Z - normal: Check project /Users/gemi/Desktop/KnifeHit/Knife-Hit
-2021-05-12T02:35:14.980Z - normal: Initializing project /Users/gemi/Desktop/KnifeHit/Knife-Hit
-2021-05-12T02:35:15.328Z - normal: Initializing Cocos2d
-2021-05-12T02:35:15.976Z - normal: Initializing engine extends
-2021-05-12T02:35:16.024Z - success: alipay-adapter loaded
-2021-05-12T02:35:16.032Z - success: asset-db-debugger loaded
-2021-05-12T02:35:16.037Z - success: baidu-adapter loaded
-2021-05-12T02:35:16.043Z - success: color-picker loaded
-2021-05-12T02:35:16.196Z - success: fb-audience-network loaded
-2021-05-12T02:35:16.239Z - success: fb-live-stream loaded
-2021-05-12T02:35:16.242Z - success: google-play-instant loaded
-2021-05-12T02:35:16.248Z - success: huawei-runtime loaded
-2021-05-12T02:35:16.464Z - success: cpk-publish loaded
-2021-05-12T02:35:16.465Z - success: jsb-adapter loaded
-2021-05-12T02:35:16.470Z - success: oppo-runtime loaded
-2021-05-12T02:35:16.475Z - success: package-manager loaded
-2021-05-12T02:35:16.608Z - success: qqplay-adapter loaded
-2021-05-12T02:35:16.610Z - success: runtime-dev-tools loaded
-2021-05-12T02:35:16.615Z - success: sdkbox loaded
-2021-05-12T02:35:16.619Z - success: tester loaded
-2021-05-12T02:35:16.623Z - success: ui-kit-preview-extra loaded
-2021-05-12T02:35:16.628Z - success: ui-kit-preview loaded
-2021-05-12T02:35:16.631Z - success: ui-kit loaded
-2021-05-12T02:35:16.638Z - success: vivo-runtime loaded
-2021-05-12T02:35:16.639Z - success: weapp-adapter loaded
-2021-05-12T02:35:16.640Z - success: xiaomi-adapter loaded
-2021-05-12T02:35:16.644Z - success: alipay-minigame loaded
-2021-05-12T02:35:16.684Z - success: assets loaded
-2021-05-12T02:35:16.686Z - success: builder loaded
-2021-05-12T02:35:16.941Z - success: cocos-services loaded
-2021-05-12T02:35:16.946Z - success: console loaded
-2021-05-12T02:35:16.973Z - success: fb-instant-games loaded
-2021-05-12T02:35:16.977Z - success: game-window loaded
-2021-05-12T02:35:16.978Z - success: google-instant-games loaded
-2021-05-12T02:35:16.983Z - success: hierarchy loaded
-2021-05-12T02:35:16.987Z - success: inspector loaded
-2021-05-12T02:35:16.988Z - success: keystore loaded
-2021-05-12T02:35:16.993Z - success: node-library loaded
-2021-05-12T02:35:16.995Z - success: package-asset loaded
-2021-05-12T02:35:16.996Z - success: preferences loaded
-2021-05-12T02:35:16.998Z - success: project-exporter loaded
-2021-05-12T02:35:17.003Z - success: project-importer loaded
-2021-05-12T02:35:17.005Z - success: project-settings loaded
-2021-05-12T02:35:17.009Z - success: scene loaded
-2021-05-12T02:35:17.010Z - success: simulator-debugger loaded
-2021-05-12T02:35:17.012Z - success: sprite-editor loaded
-2021-05-12T02:35:17.015Z - success: store loaded
-2021-05-12T02:35:17.021Z - success: timeline loaded
-2021-05-12T02:35:17.026Z - success: xiaomi-runtime loaded
-2021-05-12T02:35:21.971Z - normal: Loading packages
-2021-05-12T02:35:21.974Z - normal: Watching packages
-2021-05-12T02:35:22.045Z - normal: Run Application
-2021-05-12T02:35:22.961Z - info: Cocos Services load base data!
-2021-05-12T02:35:26.960Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+2021-05-12T13:41:29.228Z - normal: Load ~/.CocosCreator/settings.json
+2021-05-12T13:41:30.664Z - normal: Initializing Asset Database
+2021-05-12T13:41:30.671Z - normal: checking language setting...
+2021-05-12T13:41:30.671Z - normal: Language: en
+2021-05-12T13:41:32.403Z - success: preview server running at http://localhost:7456
+2021-05-12T13:41:32.406Z - success: protocol editor-framework registered
+2021-05-12T13:41:32.406Z - success: protocol app registered
+2021-05-12T13:41:32.406Z - success: protocol theme registered
+2021-05-12T13:41:32.406Z - success: protocol packages registered
+2021-05-12T13:41:32.407Z - success: protocol uuid registerred
+2021-05-12T13:41:32.407Z - success: protocol db registerred
+2021-05-12T13:41:32.407Z - success: protocol thumbnail registerred
+2021-05-12T13:41:32.407Z - success: protocol unpack registerred
+2021-05-12T13:41:32.407Z - success: protocol disable-commonjs registerred
+2021-05-12T13:41:33.552Z - normal: connected!
+2021-05-12T13:41:33.553Z - normal: Check project D:\Cocos\Knife-Hit
+2021-05-12T13:41:33.555Z - normal: Initializing project D:\Cocos\Knife-Hit
+2021-05-12T13:41:34.714Z - normal: Initializing Cocos2d
+2021-05-12T13:41:36.350Z - normal: Initializing engine extends
+2021-05-12T13:41:36.376Z - success: alipay-adapter loaded
+2021-05-12T13:41:36.382Z - success: asset-db-debugger loaded
+2021-05-12T13:41:36.386Z - success: baidu-adapter loaded
+2021-05-12T13:41:36.390Z - success: color-picker loaded
+2021-05-12T13:41:36.619Z - success: fb-audience-network loaded
+2021-05-12T13:41:36.740Z - success: fb-live-stream loaded
+2021-05-12T13:41:36.745Z - success: google-play-instant loaded
+2021-05-12T13:41:36.759Z - success: huawei-runtime loaded
+2021-05-12T13:41:37.071Z - success: cpk-publish loaded
+2021-05-12T13:41:37.072Z - success: jsb-adapter loaded
+2021-05-12T13:41:37.078Z - success: oppo-runtime loaded
+2021-05-12T13:41:37.082Z - success: package-manager loaded
+2021-05-12T13:41:37.237Z - success: qqplay-adapter loaded
+2021-05-12T13:41:37.240Z - success: runtime-dev-tools loaded
+2021-05-12T13:41:37.245Z - success: sdkbox loaded
+2021-05-12T13:41:37.250Z - success: tester loaded
+2021-05-12T13:41:37.257Z - success: ui-kit-preview-extra loaded
+2021-05-12T13:41:37.262Z - success: ui-kit-preview loaded
+2021-05-12T13:41:37.269Z - success: ui-kit loaded
+2021-05-12T13:41:37.283Z - success: vivo-runtime loaded
+2021-05-12T13:41:37.284Z - success: weapp-adapter loaded
+2021-05-12T13:41:37.285Z - success: xiaomi-adapter loaded
+2021-05-12T13:41:37.288Z - success: alipay-minigame loaded
+2021-05-12T13:41:37.350Z - success: assets loaded
+2021-05-12T13:41:37.353Z - success: builder loaded
+2021-05-12T13:41:37.720Z - success: cocos-services loaded
+2021-05-12T13:41:37.726Z - success: console loaded
+2021-05-12T13:41:37.799Z - success: fb-instant-games loaded
+2021-05-12T13:41:37.802Z - success: game-window loaded
+2021-05-12T13:41:37.804Z - success: google-instant-games loaded
+2021-05-12T13:41:37.812Z - success: hierarchy loaded
+2021-05-12T13:41:37.817Z - success: inspector loaded
+2021-05-12T13:41:37.820Z - success: keystore loaded
+2021-05-12T13:41:37.833Z - success: node-library loaded
+2021-05-12T13:41:37.835Z - success: package-asset loaded
+2021-05-12T13:41:37.838Z - success: preferences loaded
+2021-05-12T13:41:37.840Z - success: project-exporter loaded
+2021-05-12T13:41:37.844Z - success: project-importer loaded
+2021-05-12T13:41:37.848Z - success: project-settings loaded
+2021-05-12T13:41:37.853Z - success: scene loaded
+2021-05-12T13:41:37.854Z - success: simulator-debugger loaded
+2021-05-12T13:41:37.856Z - success: sprite-editor loaded
+2021-05-12T13:41:37.860Z - success: store loaded
+2021-05-12T13:41:37.867Z - success: timeline loaded
+2021-05-12T13:41:37.872Z - success: xiaomi-runtime loaded
+2021-05-12T13:41:42.300Z - info: Cocos Services load base data!
+2021-05-12T13:41:47.231Z - normal: Loading packages
+2021-05-12T13:41:47.240Z - normal: Watching packages
+2021-05-12T13:41:48.082Z - normal: Run Application
+2021-05-12T13:47:56.833Z - warn: The Node referenced by component "Main Controller" is invalid. Detailed information:
 Node path: "Canvas"
-Asset url: "db://assets/Scence/GameOver.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
 
-2021-05-12T02:35:38.154Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scence/GameOver.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+2021-05-12T14:55:41.811Z - warn: The SpriteFrame used by component "cc.Button" is missing. Detailed information:
+Node path: "Canvas/HomeNode/PlayButton"
+Missing uuid: "7859c7ac-ad97-4c04-b074-17fa277f829c"
 
-2021-05-12T02:36:10.926Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+2021-05-12T14:56:43.534Z - warn: The SpriteFrame used by component "cc.Button" is missing. Detailed information:
+Node path: "Canvas/HomeNode/PlayButton"
+Missing uuid: "7859c7ac-ad97-4c04-b074-17fa277f829c"
 
-2021-05-12T02:55:23.910Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scence/GameOver.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
+2021-05-12T15:07:43.705Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
+Node path: "Canvas/SettingNode"
 
-2021-05-12T04:19:36.094Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scence/GameOver.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-12T07:45:31.416Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scence/GameOver.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-12T07:52:49.239Z - error: Can not find cc.Component in the script 90247M3rvZKKrfbZmOv4FCi.
-    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
-    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2021-05-12T08:41:12.147Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:41:12.149Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:42:04.413Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:42:04.414Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:42:04.487Z - warn: Script attached to "Toggle Blue" in scene "Home.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Asset url: "db://assets/Scence/Home.fire"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:42:04.490Z - warn: Script attached to "Toggle Blue" in scene "Home.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Asset url: "db://assets/Scence/Home.fire"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:45:42.408Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:45:42.410Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:57:02.745Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:57:02.746Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:58:44.604Z - warn: Script attached to "Toggle Blue" in scene "Home.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Asset url: "db://assets/Scence/Home.fire"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T08:58:44.609Z - warn: Script attached to "Toggle Blue" in scene "Home.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Asset url: "db://assets/Scence/Home.fire"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:00:47.156Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:01:43.234Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:01:59.217Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:03:05.021Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:03:05.022Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:03:05.028Z - warn: The Button referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:03:05.028Z - warn: The Node referenced by component "cc.Button" is invalid. Detailed information:
-Node path: "Music Button"
-
-2021-05-12T09:03:05.028Z - warn: The Label referenced by component "cc.Button" is invalid. Detailed information:
-Node path: "Music Button"
-
-2021-05-12T09:03:05.028Z - warn: The Label referenced by component "cc.Button" is invalid. Detailed information:
-Node path: "Music Button"
-
-2021-05-12T09:03:28.669Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:03:28.670Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:12:15.870Z - warn: Script attached to "Toggle Blue" in scene "Home.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Asset url: "db://assets/Scence/Home.fire"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:12:15.872Z - warn: Script attached to "Toggle Blue" in scene "Home.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Asset url: "db://assets/Scence/Home.fire"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:12:51.793Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:12:51.793Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:13:25.747Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:13:25.748Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:17:55.572Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:17:55.573Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:22:22.110Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:22:22.112Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:22:22.190Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scence/GameOver.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-12T09:24:31.851Z - warn: Script attached to "Toggle Blue" in scene "Home.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Asset url: "db://assets/Scence/Home.fire"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:24:31.853Z - warn: Script attached to "Toggle Blue" in scene "Home.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Asset url: "db://assets/Scence/Home.fire"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:30:22.154Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:30:22.155Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:31:57.624Z - failed: [db-task][sync-changes] Failed to import asset /Users/gemi/Desktop/KnifeHit/Knife-Hit/assets/Script/Other Node/GameOver.js, message: Compile error: SyntaxError: /Users/gemi/Desktop/KnifeHit/Knife-Hit/assets/Script/Other Node/GameOver.js: Unexpected token, expected ; (22:60)
-  20 | 
-  21 |     onLoad () {
-> 22 |         this.restart.node.on('click', this.replayGame, this));
-     |                                                             ^
-  23 |     },
-  24 | 
-  25 |     replay(){
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp.semicolon (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1742:38)
-    at Parser.pp$1.parseExpressionStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2236:8)
-    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1911:17)
-    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
-    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
-    at Parser.pp$3.parseFunctionBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4235:22)
-    at Parser.pp$3.parseMethod (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4180:8)
-    at Parser.pp$3.parseObjectMethod (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4097:10)
-2021-05-12T09:33:20.380Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:33:20.381Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:35:12.785Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:35:12.787Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:35:58.965Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:35:58.965Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:36:13.672Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Music Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:36:13.672Z - warn: Script attached to "Toggle Blue" is missing or invalid. Detailed information:
-Node path: "Canvas/Setting Node/Sound Button/Background/Toggle Blue"
-Script UUID: "e080bc79-b0d1-4054-906d-b9574ae59ee5"
-Class ID: "e080bx5sNFAVJBtuVdK5Z7l"
-
-2021-05-12T09:36:35.682Z - error: Can not find component 70kUvoOXJCbIyrtFziaPuK
-    at Object.removeComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6524)
-    at HTMLElement.remove-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1290)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2021-05-12T09:36:42.923Z - error: Can not find component 70kUvoOXJCbIyrtFziaPuK
-    at Object.removeComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6524)
-    at HTMLElement.remove-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1290)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2021-05-12T09:37:00.571Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:37:05.844Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:37:05.844Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:37:07.367Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:37:07.367Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:37:31.397Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:37:31.397Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:37:41.969Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
-
-2021-05-12T09:37:41.969Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
-Node path: "Canvas/Setting Node"
+2021-05-12T15:08:33.519Z - warn: The Node referenced by component "Setting" is invalid. Detailed information:
+Node path: "Canvas/SettingNode"
 

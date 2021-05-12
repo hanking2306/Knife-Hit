@@ -23,9 +23,7 @@ cc.Class({
     playGame: function playGame() {
         Emitter.instance.emit('transformScreen', 'level1');
     },
-    start: function start() {
-        cc.log(this);
-    }
+    start: function start() {}
 }
 
 // update (dt) {},

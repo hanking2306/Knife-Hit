@@ -10,14 +10,19 @@ export function angleKnife(boardNode, boardRotation, knifeArr){
     }
 }
 
-export function loseGame(knife){
+export function loseGame(knife, score, level){
     knife.runAction(cc.sequence(
         cc.spawn(
             cc.rotateBy(0.1, 720),
             cc.moveTo(0.1, cc.v2(knife.x, -800))
         ),
         cc.callFunc(()=>{
-            Emitter.instance.emit('transformScreen', 'gameOver');
+            cc.director.loadScene('Home', ()=> {
+                Emitter.instance.emit('transformScreen', 'gameOver');
+                let getCompo = cc.director.getScene().getChildByName('Canvas').getChildByName('GameOver').getComponent('GameOver');
+                getCompo.setScore(score);
+                getCompo.setLevel(level);
+            });
         })
     )
     );

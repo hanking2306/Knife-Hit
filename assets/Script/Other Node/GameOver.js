@@ -4,6 +4,7 @@ cc.Class({
 
     properties: {
         restart: cc.Node,
+        home: cc.Node,
         scoreEndGame: cc.Label,
         levelEndGame: cc.Label,
         score: 0,
@@ -20,14 +21,15 @@ cc.Class({
 
     onLoad () {
         this.restart.on('click', this.replayGame.bind(this));
+        this.home.on('click', this.goHome.bind(this));
     },
 
     replayGame(){
-        Emitter.instance.emit('transformScreen', 'home');
+        cc.director.loadScene('Level 1');
     },
 
     goHome(){
-        cc.director.loadScene('Home');
+        Emitter.instance.emit('transformScreen', 'home');
     },
 
 

@@ -48,7 +48,7 @@
     "_is3DNode": true,
     "groupIndex": 0,
     "autoReleaseAssets": false,
-    "_id": "68759a87-fd8a-4d0f-b615-83fb3f0a830b"
+    "_id": "84006eb7-0098-4433-b29d-38be8cefceda"
   },
   {
     "__type__": "cc.Node",
@@ -153,7 +153,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 439.9409051224949
+      "z": 263.27172275046934
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -210,7 +210,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Level 3",
+    "_name": "Level 2",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -412,7 +412,7 @@
     "_id": "4eciLby+FPHYqH9XxAmMgO"
   },
   {
-    "__type__": "b1226OKFhtKz5I8ZNdITgmg",
+    "__type__": "ae04eC/GU9JLpCCcPl0UpP5",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -442,8 +442,8 @@
     },
     "score": 0,
     "numberKnife": 0,
-    "level": 3,
-    "_id": "afyedpuW5ALI8b/CA1sCVg"
+    "level": 2,
+    "_id": "85BEMLTH1E9Y9NRsVoZsS5"
   },
   {
     "__type__": "cc.Node",
@@ -759,7 +759,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife",
+    "_name": "Knife - 1",
     "_objFlags": 0,
     "_parent": {
       "__id__": 16
@@ -862,7 +862,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife - O",
+    "_name": "Knife - 2",
     "_objFlags": 0,
     "_parent": {
       "__id__": 16
@@ -965,7 +965,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife - O",
+    "_name": "Knife - 3",
     "_objFlags": 0,
     "_parent": {
       "__id__": 16
@@ -1068,7 +1068,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife - O",
+    "_name": "Knife - 4",
     "_objFlags": 0,
     "_parent": {
       "__id__": 16
@@ -1171,7 +1171,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife - O",
+    "_name": "Knife - 5",
     "_objFlags": 0,
     "_parent": {
       "__id__": 16
@@ -1274,7 +1274,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife - O",
+    "_name": "Knife - 6",
     "_objFlags": 0,
     "_parent": {
       "__id__": 16
@@ -1377,7 +1377,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife - O",
+    "_name": "Knife - 7",
     "_objFlags": 0,
     "_parent": {
       "__id__": 16
@@ -1480,7 +1480,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife - O",
+    "_name": "Knife - 8",
     "_objFlags": 0,
     "_parent": {
       "__id__": 16
@@ -2040,8 +2040,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "Level  3",
-    "_N$string": "Level  3",
+    "_string": "Level  2",
+    "_N$string": "Level  2",
     "_fontSize": 60,
     "_lineHeight": 60,
     "_enableWrapText": true,

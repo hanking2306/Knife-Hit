@@ -17,12 +17,11 @@ cc.Class({
     },
 
     playGame(){
-        Emitter
-        .instance.emit('transformScreen', 'level1');
+        Emitter.instance.emit('transformScreen', 'level1');
     },
 
     start() {
-        cc.log(this);
+ 
     },
 
     // update (dt) {},
