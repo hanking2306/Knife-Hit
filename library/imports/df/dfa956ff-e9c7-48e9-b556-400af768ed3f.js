@@ -1,23 +1,31 @@
 "use strict";
 cc._RF.push(module, 'dfa95b/6cdI6bVWQAr3aO0/', 'Home');
-// Script/Home Node/Home.js
+// Script/Other Node/Home.js
 
 'use strict';
 
+var Emitter = require('Emitter');
 cc.Class({
     extends: cc.Component,
 
-    properties: {},
+    properties: {
+        setting: cc.Node,
+        play: cc.Node
+    },
 
-    onLoad: function onLoad() {},
-    playGame: function playGame() {
-        cc.director.loadScene('Level 1');
+    onLoad: function onLoad() {
+        this.setting.on('click', this.settingGame.bind(this));
+        this.play.on('click', this.playGame.bind(this));
     },
     settingGame: function settingGame() {
-        cc.director.loadScene('Setting');
+        Emitter.instance.emit('transformScreen', 'setting');
     },
-    rankGame: function rankGame() {},
-    start: function start() {}
+    playGame: function playGame() {
+        Emitter.instance.emit('transformScreen', 'level1');
+    },
+    start: function start() {
+        cc.log(this);
+    }
 }
 
 // update (dt) {},

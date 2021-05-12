@@ -1,4 +1,5 @@
 const game = require("../Game Function/Game");
+const Emitter = require('../Emitter/Emitter');
 cc.Class({
     extends: cc.Component,
 
@@ -39,7 +40,7 @@ cc.Class({
                             }
                         }
                         if(isHit){
-                            game.loseGame(this.knifeNode, this.score, this.level);
+                            game.loseGame(this.knifeNode);
                         } else {
                             let knifeNode = cc.instantiate(this.knifePrefab);
                             knifeNode.setPosition(this.knifeNode.position);

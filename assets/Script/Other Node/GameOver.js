@@ -1,7 +1,9 @@
+const Emitter = require('../Emitter/Emitter');
 cc.Class({
     extends: cc.Component,
 
     properties: {
+        restart: cc.Node,
         scoreEndGame: cc.Label,
         levelEndGame: cc.Label,
         score: 0,
@@ -17,11 +19,11 @@ cc.Class({
     },
 
     onLoad () {
-
+        this.restart.on('click', this.replayGame.bind(this));
     },
 
-    replay(){
-        cc.director.loadScene('Level 1');
+    replayGame(){
+        Emitter.instance.emit('transformScreen', 'home');
     },
 
     goHome(){
