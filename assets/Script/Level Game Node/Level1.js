@@ -8,6 +8,7 @@ cc.Class({
        knifePrefab: cc.Prefab,
        layoutKnife: cc.Layout,
        labelScore: cc.Label,
+       knifeNodeArr: [],
        score: 0,
        numberKnife: 0,
        level: 1,
@@ -16,9 +17,7 @@ cc.Class({
     onLoad () {
         this.node.on('touchstart', this.throwKnife, this);
         this.isThrow = true;
-        this.boardNode.zIndex = 1;
         this.boardRotation = 3;
-        this.knifeNodeArr = [];
         this.remainKnife = this.layoutKnife.node.childrenCount;
     },
 
@@ -51,10 +50,7 @@ cc.Class({
                             this.score++;
                             this.labelScore.string = this.score;
                             if(this.remainKnife === 0){
-                                cc.director.loadScene('Level 2', ()=>{
-                                    let getScore = cc.director.getScene().getChildByName('Canvas').children[1].children[0].getComponent('Level2');
-                                    getScore.setScore(this.score);
-                                });
+                                game.nextLevel(this.level, this.score);
                             }
                         }  
                     })

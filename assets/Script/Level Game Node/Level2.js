@@ -29,7 +29,7 @@ cc.Class({
         this.knifeNodeArr.push(this.knifeBoard1, this.knifeBoard2);
         setInterval(()=>{
             this.changeSpeed();
-        }, 2000);
+        }, 3000);
     },
 
     changeSpeed(){
@@ -66,10 +66,7 @@ cc.Class({
                             this.score++;
                             this.labelScore.string = this.score;
                             if(this.remainKnife === 0){
-                                cc.director.loadScene('Level 2', ()=>{
-                                    let getScore = cc.director.getScene().getChildByName('Canvas').children[1].children[0].getComponent('Level2');
-                                    getScore.setScore(this.score);
-                                });
+                                game.nextLevel(this.level, this.score);
                             }
                         }  
                     })

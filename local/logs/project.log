@@ -1,170 +1,97 @@
-2021-05-11T15:13:29.070Z - normal: Load ~/.CocosCreator/settings.json
-2021-05-11T15:13:30.391Z - normal: Initializing Asset Database
-2021-05-11T15:13:30.420Z - normal: checking language setting...
-2021-05-11T15:13:30.420Z - normal: Language: en
-2021-05-11T15:13:31.482Z - success: preview server running at http://localhost:7456
-2021-05-11T15:13:31.485Z - success: protocol editor-framework registered
-2021-05-11T15:13:31.485Z - success: protocol app registered
-2021-05-11T15:13:31.485Z - success: protocol theme registered
-2021-05-11T15:13:31.485Z - success: protocol packages registered
-2021-05-11T15:13:31.485Z - success: protocol uuid registerred
-2021-05-11T15:13:31.485Z - success: protocol db registerred
-2021-05-11T15:13:31.485Z - success: protocol thumbnail registerred
-2021-05-11T15:13:31.485Z - success: protocol unpack registerred
-2021-05-11T15:13:31.486Z - success: protocol disable-commonjs registerred
-2021-05-11T15:13:33.301Z - normal: connected!
-2021-05-11T15:13:33.303Z - normal: Check project D:\Cocos\Knife-Hit
-2021-05-11T15:13:33.305Z - normal: Initializing project D:\Cocos\Knife-Hit
-2021-05-11T15:13:33.903Z - normal: Initializing Cocos2d
-2021-05-11T15:13:35.264Z - normal: Initializing engine extends
-2021-05-11T15:13:35.300Z - success: alipay-adapter loaded
-2021-05-11T15:13:35.306Z - success: asset-db-debugger loaded
-2021-05-11T15:13:35.310Z - success: baidu-adapter loaded
-2021-05-11T15:13:35.313Z - success: color-picker loaded
-2021-05-11T15:13:35.519Z - success: fb-audience-network loaded
-2021-05-11T15:13:35.645Z - success: fb-live-stream loaded
-2021-05-11T15:13:35.649Z - success: google-play-instant loaded
-2021-05-11T15:13:35.658Z - success: huawei-runtime loaded
-2021-05-11T15:13:35.971Z - success: cpk-publish loaded
-2021-05-11T15:13:35.973Z - success: jsb-adapter loaded
-2021-05-11T15:13:35.981Z - success: oppo-runtime loaded
-2021-05-11T15:13:35.985Z - success: package-manager loaded
-2021-05-11T15:13:36.152Z - success: qqplay-adapter loaded
-2021-05-11T15:13:36.154Z - success: runtime-dev-tools loaded
-2021-05-11T15:13:36.161Z - success: sdkbox loaded
-2021-05-11T15:13:36.166Z - success: tester loaded
-2021-05-11T15:13:36.169Z - success: ui-kit-preview-extra loaded
-2021-05-11T15:13:36.172Z - success: ui-kit-preview loaded
-2021-05-11T15:13:36.176Z - success: ui-kit loaded
-2021-05-11T15:13:36.186Z - success: vivo-runtime loaded
-2021-05-11T15:13:36.188Z - success: weapp-adapter loaded
-2021-05-11T15:13:36.189Z - success: xiaomi-adapter loaded
-2021-05-11T15:13:36.195Z - success: alipay-minigame loaded
-2021-05-11T15:13:36.258Z - success: assets loaded
-2021-05-11T15:13:36.262Z - success: builder loaded
-2021-05-11T15:13:36.637Z - success: cocos-services loaded
-2021-05-11T15:13:36.643Z - success: console loaded
-2021-05-11T15:13:36.690Z - success: fb-instant-games loaded
-2021-05-11T15:13:36.694Z - success: game-window loaded
-2021-05-11T15:13:36.696Z - success: google-instant-games loaded
-2021-05-11T15:13:36.702Z - success: hierarchy loaded
-2021-05-11T15:13:36.712Z - success: inspector loaded
-2021-05-11T15:13:36.713Z - success: keystore loaded
-2021-05-11T15:13:36.719Z - success: node-library loaded
-2021-05-11T15:13:36.721Z - success: package-asset loaded
-2021-05-11T15:13:36.723Z - success: preferences loaded
-2021-05-11T15:13:36.726Z - success: project-exporter loaded
-2021-05-11T15:13:36.728Z - success: project-importer loaded
-2021-05-11T15:13:36.732Z - success: project-settings loaded
-2021-05-11T15:13:36.736Z - success: scene loaded
-2021-05-11T15:13:36.738Z - success: simulator-debugger loaded
-2021-05-11T15:13:36.740Z - success: sprite-editor loaded
-2021-05-11T15:13:36.746Z - success: store loaded
-2021-05-11T15:13:36.752Z - success: timeline loaded
-2021-05-11T15:13:36.761Z - success: xiaomi-runtime loaded
-2021-05-11T15:13:40.807Z - info: Cocos Services load base data!
-2021-05-11T15:13:51.109Z - normal: Loading packages
-2021-05-11T15:13:51.122Z - normal: Watching packages
-2021-05-11T15:13:51.990Z - normal: Run Application
-2021-05-11T15:18:54.804Z - warn: Script attached to "Background" in scene "Game.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Game/Background"
-Asset url: "db://assets/Scence/Game.fire"
-Script UUID: "b7661e9c-8b39-4da9-bd04-f77aa0aacc5e"
-Class ID: "b76616cizlNqb0E93qgqsxe"
-
-2021-05-11T15:18:58.977Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+2021-05-12T02:35:12.790Z - normal: Load ~/.CocosCreator/settings.json
+2021-05-12T02:35:12.838Z - normal: Initializing Asset Database
+2021-05-12T02:35:12.840Z - normal: checking language setting...
+2021-05-12T02:35:12.840Z - normal: Language: en
+2021-05-12T02:35:13.511Z - success: preview server running at http://localhost:7456
+2021-05-12T02:35:13.521Z - success: protocol editor-framework registered
+2021-05-12T02:35:13.521Z - success: protocol app registered
+2021-05-12T02:35:13.522Z - success: protocol theme registered
+2021-05-12T02:35:13.522Z - success: protocol packages registered
+2021-05-12T02:35:13.522Z - success: protocol uuid registerred
+2021-05-12T02:35:13.522Z - success: protocol db registerred
+2021-05-12T02:35:13.522Z - success: protocol thumbnail registerred
+2021-05-12T02:35:13.522Z - success: protocol unpack registerred
+2021-05-12T02:35:13.522Z - success: protocol disable-commonjs registerred
+2021-05-12T02:35:14.977Z - normal: connected!
+2021-05-12T02:35:14.979Z - normal: Check project /Users/gemi/Desktop/KnifeHit/Knife-Hit
+2021-05-12T02:35:14.980Z - normal: Initializing project /Users/gemi/Desktop/KnifeHit/Knife-Hit
+2021-05-12T02:35:15.328Z - normal: Initializing Cocos2d
+2021-05-12T02:35:15.976Z - normal: Initializing engine extends
+2021-05-12T02:35:16.024Z - success: alipay-adapter loaded
+2021-05-12T02:35:16.032Z - success: asset-db-debugger loaded
+2021-05-12T02:35:16.037Z - success: baidu-adapter loaded
+2021-05-12T02:35:16.043Z - success: color-picker loaded
+2021-05-12T02:35:16.196Z - success: fb-audience-network loaded
+2021-05-12T02:35:16.239Z - success: fb-live-stream loaded
+2021-05-12T02:35:16.242Z - success: google-play-instant loaded
+2021-05-12T02:35:16.248Z - success: huawei-runtime loaded
+2021-05-12T02:35:16.464Z - success: cpk-publish loaded
+2021-05-12T02:35:16.465Z - success: jsb-adapter loaded
+2021-05-12T02:35:16.470Z - success: oppo-runtime loaded
+2021-05-12T02:35:16.475Z - success: package-manager loaded
+2021-05-12T02:35:16.608Z - success: qqplay-adapter loaded
+2021-05-12T02:35:16.610Z - success: runtime-dev-tools loaded
+2021-05-12T02:35:16.615Z - success: sdkbox loaded
+2021-05-12T02:35:16.619Z - success: tester loaded
+2021-05-12T02:35:16.623Z - success: ui-kit-preview-extra loaded
+2021-05-12T02:35:16.628Z - success: ui-kit-preview loaded
+2021-05-12T02:35:16.631Z - success: ui-kit loaded
+2021-05-12T02:35:16.638Z - success: vivo-runtime loaded
+2021-05-12T02:35:16.639Z - success: weapp-adapter loaded
+2021-05-12T02:35:16.640Z - success: xiaomi-adapter loaded
+2021-05-12T02:35:16.644Z - success: alipay-minigame loaded
+2021-05-12T02:35:16.684Z - success: assets loaded
+2021-05-12T02:35:16.686Z - success: builder loaded
+2021-05-12T02:35:16.941Z - success: cocos-services loaded
+2021-05-12T02:35:16.946Z - success: console loaded
+2021-05-12T02:35:16.973Z - success: fb-instant-games loaded
+2021-05-12T02:35:16.977Z - success: game-window loaded
+2021-05-12T02:35:16.978Z - success: google-instant-games loaded
+2021-05-12T02:35:16.983Z - success: hierarchy loaded
+2021-05-12T02:35:16.987Z - success: inspector loaded
+2021-05-12T02:35:16.988Z - success: keystore loaded
+2021-05-12T02:35:16.993Z - success: node-library loaded
+2021-05-12T02:35:16.995Z - success: package-asset loaded
+2021-05-12T02:35:16.996Z - success: preferences loaded
+2021-05-12T02:35:16.998Z - success: project-exporter loaded
+2021-05-12T02:35:17.003Z - success: project-importer loaded
+2021-05-12T02:35:17.005Z - success: project-settings loaded
+2021-05-12T02:35:17.009Z - success: scene loaded
+2021-05-12T02:35:17.010Z - success: simulator-debugger loaded
+2021-05-12T02:35:17.012Z - success: sprite-editor loaded
+2021-05-12T02:35:17.015Z - success: store loaded
+2021-05-12T02:35:17.021Z - success: timeline loaded
+2021-05-12T02:35:17.026Z - success: xiaomi-runtime loaded
+2021-05-12T02:35:21.971Z - normal: Loading packages
+2021-05-12T02:35:21.974Z - normal: Watching packages
+2021-05-12T02:35:22.045Z - normal: Run Application
+2021-05-12T02:35:22.961Z - info: Cocos Services load base data!
+2021-05-12T02:35:26.960Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
 Node path: "Canvas"
 Asset url: "db://assets/Scence/GameOver.fire"
 Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
 Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
 
-2021-05-11T15:19:02.946Z - warn: Script attached to "Canvas" in scene "Restart.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scence/Restart.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-11T15:19:03.020Z - warn: The Asset used by component "cc.Sprite" in scene "Restart.fire" is missing. Detailed information:
-Node path: "Canvas/Rank"
-Asset url: "db://assets/Scence/Restart.fire"
-Missing uuid: "c7b3bb72-55ee-463c-a756-bdf293619146"
-
-2021-05-11T15:19:03.021Z - warn: The Asset used by component "cc.Sprite" in scene "Restart.fire" is missing. Detailed information:
-Node path: "Canvas/ReplayButton/Replay"
-Asset url: "db://assets/Scence/Restart.fire"
-Missing uuid: "494772b5-b67e-488d-8df2-7016888bc565"
-
-2021-05-11T15:19:03.022Z - warn: The Asset used by component "cc.Sprite" in scene "Restart.fire" is missing. Detailed information:
-Node path: "Canvas/HomeButton/Home"
-Asset url: "db://assets/Scence/Restart.fire"
-Missing uuid: "bf526295-1779-40a9-ac5a-637699beb457"
-
-2021-05-11T15:19:08.475Z - warn: The Asset used by component "cc.Sprite" in scene "Menu.fire" is missing. Detailed information:
-Node path: "Canvas/Setting"
-Asset url: "db://assets/Scence/Menu.fire"
-Missing uuid: "ae32f49d-2abf-4865-85af-4f6c71d0c3f6"
-
-2021-05-11T15:19:08.476Z - warn: The Asset used by component "cc.Sprite" in scene "Menu.fire" is missing. Detailed information:
-Node path: "Canvas/Rank"
-Asset url: "db://assets/Scence/Menu.fire"
-Missing uuid: "c7b3bb72-55ee-463c-a756-bdf293619146"
-
-2021-05-11T15:19:08.476Z - warn: The Asset used by component "cc.Sprite" in scene "Menu.fire" is missing. Detailed information:
-Node path: "Canvas/Play Button/play"
-Asset url: "db://assets/Scence/Menu.fire"
-Missing uuid: "9c83a8b8-7f8f-419f-bca2-e48ee00a431b"
-
-2021-05-11T15:19:19.928Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+2021-05-12T02:35:38.154Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
 Node path: "Canvas"
 Asset url: "db://assets/Scence/GameOver.fire"
 Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
 Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
 
-2021-05-11T15:19:21.415Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
+2021-05-12T02:36:10.926Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
 Node path: "Canvas"
 Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
 Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
 
-2021-05-11T15:25:01.349Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+2021-05-12T02:55:23.910Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
 Node path: "Canvas"
 Asset url: "db://assets/Scence/GameOver.fire"
 Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
 Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
 
-2021-05-11T15:30:08.596Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
+2021-05-12T04:19:36.094Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
 Node path: "Canvas"
 Asset url: "db://assets/Scence/GameOver.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-11T15:31:23.102Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-11T15:37:04.444Z - warn: Script attached to "Canvas" in scene "GameOver.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scence/GameOver.fire"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-11T15:37:27.798Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-11T15:38:13.642Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-11T15:38:35.184Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
-Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
-
-2021-05-11T15:38:47.559Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
 Script UUID: "8c7cecab-e738-477a-a089-3a4328802c7c"
 Class ID: "8c7ceyr5zhHeqCJOkMogCx8"
 

@@ -25,3 +25,10 @@ export function angleKnife(boardNode, boardRotation, knifeArr){
         knifeNode.y = boardNode.y + r * Math.sin(rad);
     }
 }
+
+export function nextLevel(level, score){
+    cc.director.loadScene("Level " + (level + 1), ()=>{
+        let getScore = cc.director.getScene().getChildByName('Canvas').children[1].children[0].getComponent("Level" + (level + 1));
+        getScore.setScore(score);
+    });
+}

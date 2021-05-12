@@ -14,7 +14,7 @@ cc.Class({
     },
 
     settingGame(){
-        
+        cc.director.loadScene('Setting');
     },
 
     rankGame(){
