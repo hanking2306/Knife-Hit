@@ -13,12 +13,12 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife",
+    "_name": "Knife - 1",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
     "_active": true,
-    "_level": 2,
+    "_level": 4,
     "_components": [
       {
         "__id__": 2
@@ -37,8 +37,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 3685
+      "width": 485,
+      "height": 2054
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -53,15 +53,15 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.02,
-      "y": 0.02,
+      "x": 0.05,
+      "y": 0.05,
       "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 30
+      "z": 40
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -85,7 +85,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "47f734a9-9080-4557-805b-1d59b4be5e37"
+      "__uuid__": "7c1e9698-8e36-4b27-bc61-b17964e213e1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -109,7 +109,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "6ekJ6ijkZDorL/jKOYeOu0",
+    "fileId": "6b9YdyQB9G/IQVZPhlzzQ7",
     "sync": false
   }
 ]

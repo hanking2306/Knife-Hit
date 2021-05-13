@@ -1,7 +1,24 @@
 const Emitter = require('../Emitter/Emitter');
-export function angleKnife(boardNode, boardRotation, knifeArr){
-    boardNode.angle = (boardNode.angle + boardRotation) % 360; 
-    for(let knifeNode of knifeArr){
+
+export function createKnifePlayer(knifePrefab, knifeOriginal, knifeArr, node) {
+    let knifeNode = cc.instantiate(knifePrefab);
+    knifeNode.setPosition(knifeOriginal.position);
+    node.addChild(knifeNode);
+    knifeOriginal.setPosition(cc.v2(0, -450));
+    knifeArr.push(knifeNode);
+}
+
+export function createLayoutKnife(number, knifeMini, layoutKnife) {
+    for (let i = 1; i < number; i++) {
+        let knifeLayout = cc.instantiate(knifeMini);
+        knifeLayout.y -= i * 50;
+        layoutKnife.node.addChild(knifeLayout);
+    }
+}
+
+export function angleKnife(boardNode, boardRotation, knifeArr) {
+    boardNode.angle = (boardNode.angle + boardRotation) % 360;
+    for (let knifeNode of knifeArr) {
         knifeNode.angle = (knifeNode.angle + boardRotation) % 360;
         let rad = Math.PI * (knifeNode.angle - 90) / 180;
         let r = boardNode.width / 2;
@@ -10,14 +27,15 @@ export function angleKnife(boardNode, boardRotation, knifeArr){
     }
 }
 
-export function loseGame(knife, score, level){
+
+export function loseGame(knife, score, level) {
     knife.runAction(cc.sequence(
         cc.spawn(
             cc.rotateBy(0.1, 720),
             cc.moveTo(0.1, cc.v2(knife.x, -800))
         ),
-        cc.callFunc(()=>{
-            cc.director.loadScene('Home', ()=> {
+        cc.callFunc(() => {
+            cc.director.loadScene('Home', () => {
                 Emitter.instance.emit('transformScreen', 'gameOver');
                 let getCompo = cc.director.getScene().getChildByName('Canvas').getChildByName('GameOver').getComponent('GameOver');
                 getCompo.setScore(score);
@@ -28,15 +46,15 @@ export function loseGame(knife, score, level){
     );
 }
 
-export function nextLevel(level, score){
-    cc.director.loadScene("Level " + (level + 1), ()=>{
+export function nextLevel(level, score) {
+    cc.director.loadScene("Level " + (level + 1), () => {
         let getScore = cc.director.getScene().getChildByName('Canvas').children[1].children[0].getComponent("Level" + (level + 1));
         getScore.setScore(score);
     });
 }
 
-export function settingMS(onMS, offMS, toggleMS){
-    if(onMS.node.active){
+export function settingMS(onMS, offMS, toggleMS) {
+    if (onMS.node.active) {
         onMS.node.active = false;
         offMS.node.active = true;
         toggleMS.runAction(cc.moveTo(0.1, cc.v2(55, 0)));

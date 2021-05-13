@@ -5,11 +5,9 @@ cc.Class({
 
     properties: {
         backHome: cc.Node,
-        buttonMusic: cc.Button,
         onMusic: cc.Label,
         offMusic: cc.Label,
         toggleMusic: cc.Node,
-        buttonSound: cc.Button,
         onSound: cc.Label,
         offSound: cc.Label,
         toggleSound: cc.Node,
@@ -19,8 +17,6 @@ cc.Class({
         this.offMusic.node.active = false;
         this.offSound.node.active = false;
         this.backHome.on('click', this.onBackHome.bind(this));
-        this.buttonMusic.node.on('click', this.onOffMusic, this);
-        this.buttonSound.node.on('click', this.onOffSound, this);
     },
 
     onBackHome(){

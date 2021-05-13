@@ -14,7 +14,7 @@ cc.Class({
        knifeNodeArr: [],
        score: 0,
        numberKnife: 0,
-       level: 2,
+       level: 4,
     },
 
     setScore(value){
@@ -23,7 +23,7 @@ cc.Class({
     },
 
     onLoad () {
-        game.createLayoutKnife(8, this.knifeMini, this.layoutKnife);
+        game.createLayoutKnife(9, this.knifeMini, this.layoutKnife);
         this.node.on('touchstart', this.throwKnife, this);
         this.isThrow = true;
         this.boardRotation = 3;
@@ -31,12 +31,13 @@ cc.Class({
         this.knifeNodeArr.push(this.knifeBoard1, this.knifeBoard2);
         setInterval(()=>{
             this.changeSpeed();
-        }, 3000);
+        }, 2000);
     },
 
     changeSpeed(){
-        let speedRotation = Math.random();
-        this.boardRotation = this.boardRotation + speedRotation;
+        let directionRotation = Math.random() > 0.5 ? 1 : -1;
+        let speedRotation = 1 + Math.random() * 4;
+        this.boardRotation = directionRotation * speedRotation;
     },
 
     throwKnife() {

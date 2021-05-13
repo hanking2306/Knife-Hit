@@ -1,5 +1,5 @@
-const game = require("../Game Function/Game");
-const Emitter = require('../Emitter/Emitter');
+const game = require("Game");
+
 cc.Class({
     extends: cc.Component,
 
@@ -9,15 +9,17 @@ cc.Class({
        knifePrefab: cc.Prefab,
        layoutKnife: cc.Layout,
        labelScore: cc.Label,
+       knifeMini: cc.Prefab,
        knifeNodeArr: [],
+       isThrow: true,
        score: 0,
        numberKnife: 0,
        level: 1,
     },
-
+   
     onLoad () {
+        game.createLayoutKnife(7, this.knifeMini, this.layoutKnife);
         this.node.on('touchstart', this.throwKnife, this);
-        this.isThrow = true;
         this.boardRotation = 3;
         this.remainKnife = this.layoutKnife.node.childrenCount;
     },
@@ -42,11 +44,7 @@ cc.Class({
                         if(isHit){
                             game.loseGame(this.knifeNode, this.score, this.level);
                         } else {
-                            let knifeNode = cc.instantiate(this.knifePrefab);
-                            knifeNode.setPosition(this.knifeNode.position);
-                            this.node.addChild(knifeNode);
-                            this.knifeNode.setPosition(cc.v2(0, -450));
-                            this.knifeNodeArr.push(knifeNode);
+                            game.createKnifePlayer(this.knifePrefab, this.knifeNode, this.knifeNodeArr, this.node);
                             this.isThrow = true;
                             this.score++;
                             this.labelScore.string = this.score;
