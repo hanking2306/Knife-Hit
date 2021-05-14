@@ -1,3 +1,5 @@
+import exp from 'constants';
+
 const Emitter = require('../Emitter/Emitter');
 
 export function createKnifePlayer(knifePrefab, knifeOriginal, knifeArr, node) {
@@ -28,7 +30,8 @@ export function angleKnife(boardNode, boardRotation, knifeArr) {
 }
 
 
-export function loseGame(knife, score, level) {
+export function loseGame(audio, knife, score, level) {
+    cc.audioEngine.play(audio, false, 2);
     knife.runAction(cc.sequence(
         cc.spawn(
             cc.rotateBy(0.1, 720),
@@ -47,21 +50,42 @@ export function loseGame(knife, score, level) {
 }
 
 export function nextLevel(level, score) {
-    cc.director.loadScene("Level " + (level + 1), () => {
-        let getScore = cc.director.getScene().getChildByName('Canvas').children[1].children[0].getComponent("Level" + (level + 1));
-        getScore.setScore(score);
+    // isThrow = false;
+    setTimeout(()=>{
+        // loading.active = true;
+        cc.director.loadScene("Level " + (level + 1), () => {
+            let getScore = cc.director.getScene().getChildByName('Canvas').children[1].children[0].getComponent("Level" + (level + 1));
+            getScore.setScore(score);
+        });
+    }, 1000);
+}
+
+export function finishLevel(level, score){
+    cc.director.loadScene('Home', () => {
+        Emitter.instance.emit('transformScreen', 'gameOver');
+        let getCompo = cc.director.getScene().getChildByName('Canvas').getChildByName('GameOver').getComponent('GameOver');
+        getCompo.setScore(score);
+        getCompo.setLevel(level);
     });
 }
 
-export function settingMS(onMS, offMS, toggleMS) {
-    if (onMS.node.active) {
-        onMS.node.active = false;
-        offMS.node.active = true;
-        toggleMS.runAction(cc.moveTo(0.1, cc.v2(55, 0)));
+export function settingMS(onMS, offMS, toggleMS){
+    if(onMS.node.active){
+        cc.tween(toggleMS)
+            .to(0.3, {position: cc.v2(55, 0)})
+            .call(()=>{
+                onMS.node.active = false;
+                offMS.node.active = true;
+            })
+            .start();
     }
     else {
-        onMS.node.active = true;
-        offMS.node.active = false;
-        toggleMS.runAction(cc.moveTo(0.1, cc.v2(-66, 0)));
+        cc.tween(toggleMS)
+            .to(0.3, {position: cc.v2(-66, 0)})
+            .call(()=>{
+                onMS.node.active = true;
+                offMS.node.active = false;
+            })
+            .start();
     }
 }

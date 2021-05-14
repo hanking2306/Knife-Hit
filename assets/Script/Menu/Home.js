@@ -3,13 +3,15 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        setting: cc.Node,
-        play: cc.Node,
+        setting: cc.Button,
+        play: cc.Button,
+        ranking: cc.Button
     },
 
     onLoad() {
-        this.setting.on('click', this.settingGame.bind(this));
-        this.play.on('click', this.playGame.bind(this));
+        this.setting.node.on('click', this.settingGame.bind(this));
+        this.play.node.on('click', this.playGame.bind(this));
+        this.ranking.node.on('click', this.rankingGame.bind(this));
     },
 
     settingGame() {
@@ -18,6 +20,10 @@ cc.Class({
 
     playGame(){
         Emitter.instance.emit('transformScreen', 'level1');
+    },
+
+    rankingGame(){
+        Emitter.instance.emit('transformScreen', 'ranking');
     },
 
     start() {

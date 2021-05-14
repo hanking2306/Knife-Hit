@@ -153,7 +153,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 263.27172275046934
+      "z": 1108.5125168440816
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -442,6 +442,12 @@
     },
     "knifeMini": {
       "__uuid__": "28636218-d699-459f-8cea-0dfcd7f2ba60"
+    },
+    "knifeAudio": {
+      "__uuid__": "12942a82-73a8-411d-9ff0-66f35b2e3450"
+    },
+    "knifeFail": {
+      "__uuid__": "774def45-32a8-40d5-a54a-358dc5ba4788"
     },
     "knifeNodeArr": [],
     "score": 0,

@@ -1,22 +1,24 @@
-var game = require('Game');
+const game = require('Game');
 cc.Class({
     extends: cc.Component,
 
     properties: {
-       boardNode: cc.Node,
-       knifeNode: cc.Node,
-       knifePrefab: cc.Prefab,
-       layoutKnife: cc.Layout,
-       labelScore: cc.Label,
-       knifeBoard1: cc.Node,
-       knifeBoard2: cc.Node,
-       knifeMini: cc.Prefab,
-       score: 0,
-       numberKnife: 0,
-       level: 3,
+        boardNode: cc.Node,
+        knifeNode: cc.Node,
+        knifePrefab: cc.Prefab,
+        layoutKnife: cc.Layout,
+        labelScore: cc.Label,
+        knifeBoard1: cc.Node,
+        knifeBoard2: cc.Node,
+        knifeMini: cc.Prefab,
+        knifeAudio: cc.AudioClip,
+        knifeFail: cc.AudioClip,
+        score: 0,
+        numberKnife: 0,
+        level: 3,
     },
 
-    onLoad () {
+    onLoad() {
         game.createLayoutKnife(10, this.knifeMini, this.layoutKnife);
         this.node.on('touchstart', this.throwKnife, this);
         this.isThrow = true;
@@ -24,17 +26,17 @@ cc.Class({
         this.knifeNodeArr = [];
         this.remainKnife = this.layoutKnife.node.childrenCount;
         this.knifeNodeArr.push(this.knifeBoard1, this.knifeBoard2);
-        setInterval(()=>{
+        setInterval(() => {
             this.changeSpeed();
         }, 3000);
     },
 
-    setScore(value){
+    setScore(value) {
         this.score = value;
         this.labelScore.string = this.score;
     },
 
-    changeSpeed(){
+    changeSpeed() {
         let directionRotation = Math.random() > 0.5 ? 1 : -1;
         let speedRotation = 1 + Math.random() * 4;
         this.boardRotation = directionRotation * speedRotation;
@@ -42,33 +44,35 @@ cc.Class({
 
 
     throwKnife() {
-        if(this.isThrow){
+        if (this.isThrow) {
             this.isThrow = false;
             this.layoutKnife.node.children[this.numberKnife].active = false;
             this.remainKnife--;
             this.numberKnife++;
             this.knifeNode.runAction(
                 cc.sequence(
-                    cc.moveTo(0.1, cc.v2(this.knifeNode.x, this.boardNode.y - this.boardNode.width/2)), 
-                    cc.callFunc(()=>{
+                    cc.moveTo(0.1, cc.v2(this.knifeNode.x, this.boardNode.y - this.boardNode.width / 2)),
+                    cc.callFunc(() => {
+                        cc.audioEngine.play(this.knifeAudio, false, 1);
                         let isHit = false;
-                        for(let knifeNode of this.knifeNodeArr){
-                            if(Math.abs(knifeNode.angle) < 15 || (360 - Math.abs(knifeNode.angle)) < 15){
+                        for (let knifeNode of this.knifeNodeArr) {
+                            if (Math.abs(knifeNode.angle) < 15 || (360 - Math.abs(knifeNode.angle)) < 15) {
                                 isHit = true;
                                 break;
                             }
                         }
-                        if(isHit){
-                            game.loseGame(this.knifeNode, this.score, this.level);
+                        if (isHit) {
+                            game.loseGame(this.knifeFail, this.knifeNode, this.score, this.level);
                         } else {
                             game.createKnifePlayer(this.knifePrefab, this.knifeNode, this.knifeNodeArr, this.node);
                             this.isThrow = true;
                             this.score++;
                             this.labelScore.string = this.score;
-                            if(this.remainKnife === 0){
+                            if (this.remainKnife === 0) {
+                                this.isThrow = false;
                                 game.nextLevel(this.level, this.score);
                             }
-                        }  
+                        }
                     })
                 )
             );
@@ -77,7 +81,7 @@ cc.Class({
 
     // start () {},
 
-    update (dt) {
+    update(dt) {
         game.angleKnife(this.boardNode, this.boardRotation, this.knifeNodeArr);
     },
 });

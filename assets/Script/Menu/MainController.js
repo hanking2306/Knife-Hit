@@ -7,6 +7,7 @@ cc.Class({
         homeScreen: cc.Node,
         settingScreen: cc.Node,
         gameOver: cc.Node,
+        ranking: cc.Node,
     },
 
     onLoad () {
@@ -19,12 +20,14 @@ cc.Class({
                 this.homeScreen.active = true;
                 this.settingScreen.active = false;
                 this.gameOver.active = false;
+                this.ranking.active = false;
                 break;
             }
             case 'setting':{
                 this.settingScreen.active = true;
                 this.homeScreen.active = false;
                 this.gameOver.active = false;
+                this.ranking.active = false;
                 break;
             }
             case 'level1':{
@@ -35,6 +38,14 @@ cc.Class({
                 this.gameOver.active = true;
                 this.homeScreen.active = false;
                 this.settingScreen.active = false;
+                this.ranking.active = false;
+                break;
+            }
+            case 'ranking':{
+                this.gameOver.active = false;
+                this.homeScreen.active = false;
+                this.settingScreen.active = false;
+                this.ranking.active = true;
                 break;
             }
         }

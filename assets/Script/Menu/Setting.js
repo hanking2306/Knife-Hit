@@ -1,5 +1,5 @@
-const Emitter = require('../Emitter/Emitter');
-const game = require('../Game Function/Game');
+const Emitter = require('Emitter');
+const game = require('Game');
 cc.Class({
     extends: cc.Component,
 
