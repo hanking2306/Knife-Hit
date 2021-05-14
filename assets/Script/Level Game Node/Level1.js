@@ -10,8 +10,14 @@ cc.Class({
         layoutKnife: cc.Layout,
         labelScore: cc.Label,
         knifeMini: cc.Prefab,
-        knifeAudio: cc.AudioClip,
-        knifeFail: cc.AudioClip,
+        knifeAudio: {
+           type: cc.AudioClip,
+           default: null,
+        },
+        knifeFail: {
+            type: cc.AudioClip,
+           default: null,
+        },
         knifeNodeArr: [],
         isThrow: true,
         score: 0,

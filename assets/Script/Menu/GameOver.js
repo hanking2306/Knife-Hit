@@ -3,8 +3,9 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        restart: cc.Node,
-        home: cc.Node,
+        restart: cc.Button,
+        home: cc.Button,
+        rank: cc.Button,
         scoreEndGame: cc.Label,
         levelEndGame: cc.Label,
         score: 0,
@@ -20,19 +21,22 @@ cc.Class({
     },
 
     onLoad () {
-        this.restart.on('click', this.replayGame.bind(this));
-        this.home.on('click', this.goHome.bind(this));
+        this.restart.node.on('click', this.replayGame.bind(this));
+        this.home.node.on('click', this.goToHome.bind(this));
+        this.rank.node.on('click', this.goToRank.bind(this));
     },
 
     replayGame(){
         cc.director.loadScene('Level 1');
     },
 
-    goHome(){
+    goToHome(){
         Emitter.instance.emit('transformScreen', 'home');
     },
 
-
+    goToRank(){
+        Emitter.instance.emit('transformScreen', 'ranking');
+    },
 
     start () {
         this.scoreEndGame.string = this.score;

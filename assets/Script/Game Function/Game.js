@@ -31,7 +31,7 @@ export function angleKnife(boardNode, boardRotation, knifeArr) {
 
 
 export function loseGame(audio, knife, score, level) {
-    cc.audioEngine.play(audio, false, 2);
+    cc.audioEngine.play(audio, false, 1);
     knife.runAction(cc.sequence(
         cc.spawn(
             cc.rotateBy(0.1, 720),
@@ -40,7 +40,7 @@ export function loseGame(audio, knife, score, level) {
         cc.callFunc(() => {
             cc.director.loadScene('Home', () => {
                 Emitter.instance.emit('transformScreen', 'gameOver');
-                let getCompo = cc.director.getScene().getChildByName('Canvas').getChildByName('GameOver').getComponent('GameOver');
+                let getCompo = cc.director.getScene().getChildByName('Canvas').getChildByName('GameOverNode').getComponent('GameOver');
                 getCompo.setScore(score);
                 getCompo.setLevel(level);
             });

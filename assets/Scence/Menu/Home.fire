@@ -422,7 +422,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Knife",
+    "_name": "LogoKnifeHit",
     "_objFlags": 0,
     "_parent": {
       "__id__": 5
@@ -433,96 +433,6 @@
     "_components": [
       {
         "__id__": 10
-      }
-    ],
-    "_prefab": null,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 400,
-      "height": 2500
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": -108.894,
-      "z": 0
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.3,
-      "y": 0.15,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "groupIndex": 0,
-    "_id": "085eWOxABEOboR/oJ4ftf0"
-  },
-  {
-    "__type__": "cc.Sprite",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 9
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
-      }
-    ],
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "7c1e9698-8e36-4b27-bc61-b17964e213e1"
-    },
-    "_type": 0,
-    "_sizeMode": 0,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_atlas": null,
-    "_id": "2b+eanAXJDf5tZMbnTgEVR"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Logo",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 5
-    },
-    "_children": [],
-    "_active": true,
-    "_level": 2,
-    "_components": [
-      {
-        "__id__": 12
       }
     ],
     "_prefab": null,
@@ -547,13 +457,103 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 290,
+      "y": 350,
       "z": 0
     },
     "_scale": {
       "__type__": "cc.Vec3",
       "x": 1,
       "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "groupIndex": 0,
+    "_id": "acUjzcM2xFuZJE3nswLp2x"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 9
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "139bd102-2e8a-4f1e-a0f1-44b7b7d553a2"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": "f7xGx7KaVJ/a4mcrO+z5dl"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "LogoWolf",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 5
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 2,
+    "_components": [
+      {
+        "__id__": 12
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1986,
+      "height": 2460
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -63.939,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.2,
+      "y": 0.2,
       "z": 1
     },
     "_eulerAngles": {
@@ -584,7 +584,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "139bd102-2e8a-4f1e-a0f1-44b7b7d553a2"
+      "__uuid__": "e6588f1d-bf97-41ba-95c9-7136329b3708"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -1590,6 +1590,9 @@
     },
     "ranking": {
       "__id__": 26
+    },
+    "logoWolf": {
+      "__id__": 11
     },
     "_id": "de/bpinyFAvKk0Bgt4/Re6"
   },
@@ -5045,10 +5048,13 @@
     },
     "_enabled": true,
     "restart": {
-      "__id__": 91
+      "__id__": 97
     },
     "home": {
-      "__id__": 79
+      "__id__": 83
+    },
+    "rank": {
+      "__id__": 104
     },
     "scoreEndGame": {
       "__id__": 86
@@ -5284,8 +5290,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 30,
-      "height": 30
+      "width": 40,
+      "height": 40
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5294,8 +5300,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -246.196,
-      "y": 523.515,
+      "x": 0,
+      "y": 425,
       "z": 0
     },
     "_scale": {
@@ -5345,8 +5351,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 30,
-      "height": 30
+      "width": 40,
+      "height": 40
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5355,7 +5361,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -0.14300000000000068,
+      "x": 0,
       "y": 0,
       "z": 0
     },
@@ -5393,7 +5399,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "4f8a50e8-e316-4ef4-8030-23b6fca9d301"
+      "__uuid__": "e984bd25-a2a6-40fe-9186-d946cf66d5f7"
     },
     "_type": 1,
     "_sizeMode": 0,
@@ -5420,8 +5426,8 @@
     "alignMode": 0,
     "_target": null,
     "_alignFlags": 45,
-    "_left": -0.14300000000000157,
-    "_right": 0.14300000000000157,
+    "_left": 0,
+    "_right": 0,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,
@@ -5444,8 +5450,8 @@
       "__id__": 111
     },
     "_enabled": true,
-    "duration": 0.2,
-    "zoomScale": 1.3,
+    "duration": 0.5,
+    "zoomScale": 5,
     "clickEvents": [],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
@@ -5553,7 +5559,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": -98.461,
-      "y": 317.949,
+      "y": 308.252,
       "z": 0
     },
     "_scale": {

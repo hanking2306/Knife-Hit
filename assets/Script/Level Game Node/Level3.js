@@ -11,8 +11,14 @@ cc.Class({
         knifeBoard1: cc.Node,
         knifeBoard2: cc.Node,
         knifeMini: cc.Prefab,
-        knifeAudio: cc.AudioClip,
-        knifeFail: cc.AudioClip,
+        knifeAudio: {
+            type: cc.AudioClip,
+            default: null,
+        },
+        knifeFail: {
+            type: cc.AudioClip,
+            default: null,
+        },
         score: 0,
         numberKnife: 0,
         level: 3,
@@ -53,7 +59,7 @@ cc.Class({
                 cc.sequence(
                     cc.moveTo(0.1, cc.v2(this.knifeNode.x, this.boardNode.y - this.boardNode.width / 2)),
                     cc.callFunc(() => {
-                        cc.audioEngine.play(this.knifeAudio, false, 1);
+                        cc.audioEngine.play(this.knifeFail, false, 1);
                         let isHit = false;
                         for (let knifeNode of this.knifeNodeArr) {
                             if (Math.abs(knifeNode.angle) < 15 || (360 - Math.abs(knifeNode.angle)) < 15) {

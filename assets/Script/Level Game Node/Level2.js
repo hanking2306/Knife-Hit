@@ -11,8 +11,14 @@ cc.Class({
         knifeBoard1: cc.Node,
         knifeBoard2: cc.Node,
         knifeMini: cc.Prefab,
-        knifeAudio: cc.AudioClip,
-        knifeFail: cc.AudioClip,
+        knifeAudio: {
+            type: cc.AudioClip,
+            default: null,
+        },
+        knifeFail: {
+            type: cc.AudioClip,
+            default: null,
+        },
         knifeNodeArr: [],
         score: 0,
         numberKnife: 0,
