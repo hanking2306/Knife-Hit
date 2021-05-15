@@ -425,7 +425,7 @@
     "relativePath": "Textures"
   },
   "c001429b-cca0-48f0-94eb-f7adad7195fa": {
-    "asset": 1620999428297,
+    "asset": 1621100085910,
     "meta": 1620999428281,
     "relativePath": "Script"
   },
@@ -577,12 +577,12 @@
   "0a95cdd8-f6bf-48b3-9cdd-5f97dd3ea083": {
     "asset": 1620999428286,
     "meta": 1620999428282,
-    "relativePath": "Script\\Emitter"
+    "relativePath": "Script\\Emitter Event"
   },
   "5d71c2d2-7b45-4ea1-97d2-48ccce7a36c5": {
     "asset": 1620999428283,
     "meta": 1620999484878,
-    "relativePath": "Script\\Emitter\\Emitter.js"
+    "relativePath": "Script\\Emitter Event\\Emitter.js"
   },
   "9843cfee-97f4-4229-90bc-dba03e589f45": {
     "asset": 1621072095013,
@@ -605,8 +605,8 @@
     "relativePath": "Material\\Button\\Setting - 001.png"
   },
   "3fa4cdf1-0394-407f-86e9-09192086247e": {
-    "asset": 1621070145736,
-    "meta": 1621070145802,
+    "asset": 1621115730590,
+    "meta": 1621115730624,
     "relativePath": "Scence\\Menu\\Home.fire"
   },
   "8fa9c38d-de24-45fc-b76e-54591522dc43": {
@@ -654,30 +654,15 @@
     "meta": 1620999486012,
     "relativePath": "Script\\Menu\\Setting.js"
   },
-  "797e8e24-139e-431a-beb5-df1c56fa1add": {
-    "asset": 1620999428299,
-    "meta": 1620999485974,
-    "relativePath": "Script\\Menu\\MainController.js"
-  },
   "b7f4f5b9-e190-4bfe-965c-4410442ed79c": {
     "asset": 1620999428439,
     "meta": 1620999487841,
     "relativePath": "Textures\\Prefab\\top.prefab"
   },
-  "ba752987-eb5f-45b4-9710-adaa2fb0b60c": {
-    "asset": 1621004506477,
-    "meta": 1621004849331,
-    "relativePath": "Script\\Game Function\\Game.js"
-  },
   "0f306b7a-afe3-4d45-8612-769fb4a00fca": {
     "asset": 1621000638609,
     "meta": 1621000638923,
     "relativePath": "Textures\\Background\\logoCool.png"
-  },
-  "dfa956ff-e9c7-48e9-b556-400af768ed3f": {
-    "asset": 1621001468681,
-    "meta": 1621001469691,
-    "relativePath": "Script\\Menu\\Home.js"
   },
   "0636e768-6b69-4e91-81d8-b5cae3cc80b3": {
     "asset": 1621001930382,
@@ -709,11 +694,6 @@
     "meta": 1621003695129,
     "relativePath": "Script\\Level Game Node\\Level4.js"
   },
-  "bd3b3463-5039-4229-bec9-a66f2d352bcf": {
-    "asset": 1621003693592,
-    "meta": 1621003695130,
-    "relativePath": "Script\\Level Game Node\\Level5.js"
-  },
   "d2f9ab13-1d95-4fec-a6e4-9b5432a1850f": {
     "asset": 1621004167053,
     "meta": 1621004167113,
@@ -729,14 +709,34 @@
     "meta": 1621070556329,
     "relativePath": "Script\\Level Game Node\\Level2.js"
   },
+  "797e8e24-139e-431a-beb5-df1c56fa1add": {
+    "asset": 1621099642070,
+    "meta": 1621099921621,
+    "relativePath": "Script\\Menu\\MainController.js"
+  },
+  "bd3b3463-5039-4229-bec9-a66f2d352bcf": {
+    "asset": 1621112064941,
+    "meta": 1621112066931,
+    "relativePath": "Script\\Level Game Node\\Level5.js"
+  },
+  "ba752987-eb5f-45b4-9710-adaa2fb0b60c": {
+    "asset": 1621112846759,
+    "meta": 1621112855100,
+    "relativePath": "Script\\Game Function\\Game.js"
+  },
   "e097042c-f8a9-4334-ba37-00be380b5d0a": {
-    "asset": 1621070747489,
-    "meta": 1621070810234,
+    "asset": 1621115499544,
+    "meta": 1621115502730,
     "relativePath": "Script\\Menu\\Ranking.js"
   },
   "3c05729c-f24a-4f99-b6eb-97a485d5006c": {
-    "asset": 1621072091226,
-    "meta": 1621072093058,
+    "asset": 1621116256928,
+    "meta": 1621116263294,
     "relativePath": "Script\\Menu\\GameOver.js"
+  },
+  "dfa956ff-e9c7-48e9-b556-400af768ed3f": {
+    "asset": 1621116175085,
+    "meta": 1621116263295,
+    "relativePath": "Script\\Menu\\Home.js"
   }
 }

@@ -1,6 +1,6 @@
 import exp from 'constants';
 
-const Emitter = require('../Emitter/Emitter');
+const Emitter = require('Emitter');
 
 export function createKnifePlayer(knifePrefab, knifeOriginal, knifeArr, node) {
     let knifeNode = cc.instantiate(knifePrefab);
@@ -31,7 +31,7 @@ export function angleKnife(boardNode, boardRotation, knifeArr) {
 
 
 export function loseGame(audio, knife, score, level) {
-    cc.audioEngine.play(audio, false, 1);
+    cc.audioEngine.play(audio, false, 2);
     knife.runAction(cc.sequence(
         cc.spawn(
             cc.rotateBy(0.1, 720),
@@ -50,9 +50,7 @@ export function loseGame(audio, knife, score, level) {
 }
 
 export function nextLevel(level, score) {
-    // isThrow = false;
-    setTimeout(()=>{
-        // loading.active = true;
+    setTimeout(() => {
         cc.director.loadScene("Level " + (level + 1), () => {
             let getScore = cc.director.getScene().getChildByName('Canvas').children[1].children[0].getComponent("Level" + (level + 1));
             getScore.setScore(score);
@@ -60,20 +58,20 @@ export function nextLevel(level, score) {
     }, 1000);
 }
 
-export function finishLevel(level, score){
+export function finishLevel(level, score) {
     cc.director.loadScene('Home', () => {
         Emitter.instance.emit('transformScreen', 'gameOver');
-        let getCompo = cc.director.getScene().getChildByName('Canvas').getChildByName('GameOver').getComponent('GameOver');
+        let getCompo = cc.director.getScene().getChildByName('Canvas').getChildByName('GameOverNode').getComponent('GameOver');
         getCompo.setScore(score);
         getCompo.setLevel(level);
     });
 }
 
-export function settingMS(onMS, offMS, toggleMS){
-    if(onMS.node.active){
+export function settingMS(onMS, offMS, toggleMS) {
+    if (onMS.node.active) {
         cc.tween(toggleMS)
-            .to(0.3, {position: cc.v2(55, 0)})
-            .call(()=>{
+            .to(0.3, { position: cc.v2(55, 0) })
+            .call(() => {
                 onMS.node.active = false;
                 offMS.node.active = true;
             })
@@ -81,8 +79,8 @@ export function settingMS(onMS, offMS, toggleMS){
     }
     else {
         cc.tween(toggleMS)
-            .to(0.3, {position: cc.v2(-66, 0)})
-            .call(()=>{
+            .to(0.3, { position: cc.v2(-66, 0) })
+            .call(() => {
                 onMS.node.active = true;
                 offMS.node.active = false;
             })
