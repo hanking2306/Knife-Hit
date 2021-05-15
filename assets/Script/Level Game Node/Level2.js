@@ -39,7 +39,7 @@ cc.Class({
         this.knifeNodeArr.push(this.knifeBoard1, this.knifeBoard2);
         setInterval(() => {
             this.changeSpeed();
-        }, 3000);
+        }, 4000);
     },
 
     changeSpeed() {
