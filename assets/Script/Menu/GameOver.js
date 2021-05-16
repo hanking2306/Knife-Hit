@@ -17,8 +17,10 @@ cc.Class({
     },
 
     onLoad() {
-        let rank = cc.sys.localStorage.getItem('top10');
-        this.arrRecord = JSON.parse(rank);
+        if (this.arrRecord.lenght > 0) {
+            let rank = cc.sys.localStorage.getItem('top10');
+            this.arrRecord = JSON.parse(rank);
+        }
         this.restart.node.on('click', this.replayGame.bind(this));
         this.home.node.on('click', this.goToHome.bind(this));
         this.rank.node.on('click', this.goToRank.bind(this));
@@ -57,15 +59,15 @@ cc.Class({
             cc.log(this.arrRecord)
             cc.sys.localStorage.setItem('top10', JSON.stringify(this.arrRecord));
             var dataLocal = JSON.parse(cc.sys.localStorage.getItem('top10'));
-            dataLocal.map((item)=>{
+            dataLocal.map((item) => {
                 Emitter.instance.emit('addMasterName', item.name, item.score);
             })
         }
     },
 
     goToHome() {
-        for(let i = 0; i < this.arrRecord.length-1; i++){
-            if(i < 10){
+        for (let i = 0; i < this.arrRecord.length - 1; i++) {
+            if (i < 10) {
                 Emitter.instance.emit('getAndAdd', this.arrRecord[i].name, this.arrRecord[i].score);
             }
         };
@@ -76,10 +78,10 @@ cc.Class({
         Emitter.instance.emit('transformScreen', 'ranking');
     },
 
-    sortArrRecord(anyArr){
-        for(let i = 0; i < anyArr.length; i++){
-            for(let j = i + 1; j < anyArr.length; j++){
-                if(anyArr[i].score < anyArr[j].score){
+    sortArrRecord(anyArr) {
+        for (let i = 0; i < anyArr.length; i++) {
+            for (let j = i + 1; j < anyArr.length; j++) {
+                if (anyArr[i].score < anyArr[j].score) {
                     [anyArr[i], anyArr[j]] = [anyArr[j], anyArr[i]];
                 }
             }
