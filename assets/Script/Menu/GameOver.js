@@ -17,10 +17,8 @@ cc.Class({
     },
 
     onLoad() {
-        if (this.arrRecord.lenght > 0) {
-            let rank = cc.sys.localStorage.getItem('top10');
-            this.arrRecord = JSON.parse(rank);
-        }
+        let rank = cc.sys.localStorage.getItem('top10');
+        this.arrRecord = JSON.parse(rank);
         this.restart.node.on('click', this.replayGame.bind(this));
         this.home.node.on('click', this.goToHome.bind(this));
         this.rank.node.on('click', this.goToRank.bind(this));
@@ -56,7 +54,6 @@ cc.Class({
             arrNameScore.score = this.score;
             this.arrRecord.push(arrNameScore);
             this.sortArrRecord(this.arrRecord);
-            cc.log(this.arrRecord)
             cc.sys.localStorage.setItem('top10', JSON.stringify(this.arrRecord));
             var dataLocal = JSON.parse(cc.sys.localStorage.getItem('top10'));
             dataLocal.map((item) => {

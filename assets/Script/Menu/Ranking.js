@@ -26,7 +26,7 @@ cc.Class({
         let goToPoint = this.listTop.node.children[1].children[0];
         let newMasterName = new cc.instantiate(this.masterName);
         newMasterName.getComponent(cc.Label).string = nameMaster;
-        newMasterName.x = 0;
+        newMasterName.x = -20;
         newMasterName.y = -80 * this.index + 80;
         let newMasterScore = new cc.instantiate(this.masterName);
         newMasterScore.getComponent(cc.Label).string = scoreMaster;
@@ -51,7 +51,7 @@ cc.Class({
         let goToPoint = this.listTop.node.children[1].children[0];
         let newMasterName = new cc.instantiate(this.masterName);
         newMasterName.getComponent(cc.Label).string = newMaster;
-        newMasterName.x = 0;
+        newMasterName.x = -20;
         newMasterName.y = -80 * this.index + 80;
         let newMasterScore = new cc.instantiate(this.masterName);
         newMasterScore.getComponent(cc.Label).string = newScore;

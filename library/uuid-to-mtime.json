@@ -605,8 +605,8 @@
     "relativePath": "Material\\Button\\Setting - 001.png"
   },
   "3fa4cdf1-0394-407f-86e9-09192086247e": {
-    "asset": 1621115730590,
-    "meta": 1621115730624,
+    "asset": 1621145836216,
+    "meta": 1621145836266,
     "relativePath": "Scence\\Menu\\Home.fire"
   },
   "8fa9c38d-de24-45fc-b76e-54591522dc43": {
@@ -724,19 +724,19 @@
     "meta": 1621112855100,
     "relativePath": "Script\\Game Function\\Game.js"
   },
-  "e097042c-f8a9-4334-ba37-00be380b5d0a": {
-    "asset": 1621115499544,
-    "meta": 1621115502730,
-    "relativePath": "Script\\Menu\\Ranking.js"
-  },
   "dfa956ff-e9c7-48e9-b556-400af768ed3f": {
     "asset": 1621116175085,
     "meta": 1621116263295,
     "relativePath": "Script\\Menu\\Home.js"
   },
+  "e097042c-f8a9-4334-ba37-00be380b5d0a": {
+    "asset": 1621144389137,
+    "meta": 1621144391119,
+    "relativePath": "Script\\Menu\\Ranking.js"
+  },
   "3c05729c-f24a-4f99-b6eb-97a485d5006c": {
-    "asset": 1621138381549,
-    "meta": 1621138409257,
+    "asset": 1621144516980,
+    "meta": 1621144521594,
     "relativePath": "Script\\Menu\\GameOver.js"
   }
 }
