@@ -7,6 +7,7 @@ cc.Class({
         restart: cc.Button,
         home: cc.Button,
         rank: cc.Button,
+        record: cc.Node,
         scoreEndGame: cc.Label,
         levelEndGame: cc.Label,
         addButton: cc.Button,
@@ -17,7 +18,10 @@ cc.Class({
     },
 
     onLoad() {
-        let rank = cc.sys.localStorage.getItem('top10');
+        this.restart.node.active = false;
+        this.rank.node.active = false;
+        this.record.active = false;
+        let rank = cc.sys.localStorage.getItem('TopTen');
         this.arrRecord = JSON.parse(rank);
         this.restart.node.on('click', this.replayGame.bind(this));
         this.home.node.on('click', this.goToHome.bind(this));
@@ -38,28 +42,31 @@ cc.Class({
     },
 
     onAddName() {
-        let checkName = true;
+        this.restart.node.active = true;
+        this.rank.node.active = true;
+        this.record.active = true;
+        this.fillName.node.active = false;
         let arrNameScore = {
             name: '',
             score: 0,
         }
-        if (this.fillName.string === "") {
-            checkName = false;
+        if(this.fillName.string === ""){
+            arrNameScore.name = "NoName";
         }
         else {
-            checkName = true;
-        }
-        if (checkName) {
             arrNameScore.name = this.fillName.string;
-            arrNameScore.score = this.score;
-            this.arrRecord.push(arrNameScore);
-            this.sortArrRecord(this.arrRecord);
-            cc.sys.localStorage.setItem('top10', JSON.stringify(this.arrRecord));
-            var dataLocal = JSON.parse(cc.sys.localStorage.getItem('top10'));
-            dataLocal.map((item) => {
-                Emitter.instance.emit('addMasterName', item.name, item.score);
-            })
         }
+        arrNameScore.score = this.score;
+        if (typeof (this.arrRecord) == 'undefined' || this.arrRecord == null) {
+            this.arrRecord = [];
+        }
+        this.arrRecord.push(arrNameScore);
+        this.sortArrRecord(this.arrRecord);
+        cc.sys.localStorage.setItem('TopTen', JSON.stringify(this.arrRecord));
+        var dataLocal = JSON.parse(cc.sys.localStorage.getItem('TopTen'));
+        dataLocal.map((item) => {
+            Emitter.instance.emit('addMasterName', item.name, item.score);
+        })
     },
 
     goToHome() {
@@ -91,6 +98,6 @@ cc.Class({
     },
 
     update(dt) {
-
+        
     },
 });

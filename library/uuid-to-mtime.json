@@ -485,8 +485,8 @@
     "relativePath": "Textures\\Background\\Record.png"
   },
   "84006eb7-0098-4433-b29d-38be8cefceda": {
-    "asset": 1621002529111,
-    "meta": 1621002529166,
+    "asset": 1621150462904,
+    "meta": 1621150462924,
     "relativePath": "Scence\\Level\\Level 2.fire"
   },
   "96c477b4-ad94-42d6-b01d-d18287cf1043": {
@@ -605,8 +605,8 @@
     "relativePath": "Material\\Button\\Setting - 001.png"
   },
   "3fa4cdf1-0394-407f-86e9-09192086247e": {
-    "asset": 1621145836216,
-    "meta": 1621145836266,
+    "asset": 1621155335679,
+    "meta": 1621155335707,
     "relativePath": "Scence\\Menu\\Home.fire"
   },
   "8fa9c38d-de24-45fc-b76e-54591522dc43": {
@@ -620,8 +620,8 @@
     "relativePath": "Textures\\Prefab\\KnifeMini.prefab"
   },
   "ee3cd3b3-c49c-419f-ba0c-b1f95d9c7cd7": {
-    "asset": 1621002068784,
-    "meta": 1621002068830,
+    "asset": 1621150521313,
+    "meta": 1621150521331,
     "relativePath": "Scence\\Level\\Level 4.fire"
   },
   "65a7e0d1-fc0b-4250-bf20-624740f1c40f": {
@@ -734,9 +734,24 @@
     "meta": 1621144391119,
     "relativePath": "Script\\Menu\\Ranking.js"
   },
+  "d0456e4e-603c-4f4a-8105-366233efa5a9": {
+    "asset": 1621150722032,
+    "meta": 1621150722117,
+    "relativePath": "Material\\Button\\—Pngtree—cool red game buttons and_5266071_03.png"
+  },
+  "b4fd64cd-9972-4d57-9da3-d9ff958787c1": {
+    "asset": 1621150894625,
+    "meta": 1621150894726,
+    "relativePath": "Material\\Button\\—Pngtree—cartoon stereo colored cute button_3972687_06.png"
+  },
+  "84126ae2-9794-411e-911c-e7b5a29ec670": {
+    "asset": 1621151530009,
+    "meta": 1621151530392,
+    "relativePath": "Material\\Button\\—Pngtree—samurai esports logo for mascot_4261522.png"
+  },
   "3c05729c-f24a-4f99-b6eb-97a485d5006c": {
-    "asset": 1621144516980,
-    "meta": 1621144521594,
+    "asset": 1621155269904,
+    "meta": 1621155272097,
     "relativePath": "Script\\Menu\\GameOver.js"
   }
 }

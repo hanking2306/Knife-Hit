@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "84126ae2-9794-411e-911c-e7b5a29ec670",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "—Pngtree—samurai esports logo for mascot_4261522": {
+      "ver": "1.0.4",
+      "uuid": "54218edd-64cb-4b54-8faa-47262391e99e",
+      "rawTextureUuid": "84126ae2-9794-411e-911c-e7b5a29ec670",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 406,
+      "trimY": 326,
+      "width": 1188,
+      "height": 1348,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
