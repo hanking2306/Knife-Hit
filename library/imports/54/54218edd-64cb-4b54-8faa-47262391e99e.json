@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "—Pngtree—samurai esports logo for mascot_4261522",
+    "texture": "84126ae2-9794-411e-911c-e7b5a29ec670",
+    "atlas": "",
+    "rect": [
+      406,
+      326,
+      1188,
+      1348
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2000,
+      2000
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

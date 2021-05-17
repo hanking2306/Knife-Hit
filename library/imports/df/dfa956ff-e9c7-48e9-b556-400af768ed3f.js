@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'dfa95b/6cdI6bVWQAr3aO0/', 'Home');
-// Script/Menu/Home.js
+// Script/Home.js
 
 'use strict';
 

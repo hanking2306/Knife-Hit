@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "KnifeBoard",
+    "texture": "96c477b4-ad94-42d6-b01d-d18287cf1043",
+    "atlas": "",
+    "rect": [
+      695,
+      252,
+      485,
+      2054
+    ],
+    "offset": [
+      -62.5,
+      -0.5
+    ],
+    "originalSize": [
+      2000,
+      2557
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

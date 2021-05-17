@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "knife_hit_wheel",
+    "texture": "e5083621-13f0-4452-aa7e-e31a4d93e31b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      259,
+      260
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      259,
+      260
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

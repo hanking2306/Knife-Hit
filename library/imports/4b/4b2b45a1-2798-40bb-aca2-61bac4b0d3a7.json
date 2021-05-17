@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Toggle Blue",
+    "texture": "3c3acfca-bbb9-4ed5-a9f1-95f5ad512f95",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      312,
+      311
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      312,
+      311
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

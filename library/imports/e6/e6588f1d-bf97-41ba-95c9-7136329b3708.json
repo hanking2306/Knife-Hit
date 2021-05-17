@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "logoCool",
+    "texture": "0f306b7a-afe3-4d45-8612-769fb4a00fca",
+    "atlas": "",
+    "rect": [
+      257,
+      20,
+      1986,
+      2460
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2500,
+      2500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

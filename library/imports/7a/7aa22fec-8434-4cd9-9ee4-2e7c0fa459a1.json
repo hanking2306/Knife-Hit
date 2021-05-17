@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "KH_LB3",
+    "texture": "0636e768-6b69-4e91-81d8-b5cae3cc80b3",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      566,
+      566
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      568,
+      568
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

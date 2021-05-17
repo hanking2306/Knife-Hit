@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "—Pngtree—cartoon stereo colored cute button_3972687_06",
+    "texture": "b4fd64cd-9972-4d57-9da3-d9ff958787c1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1002,
+      389
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1002,
+      389
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

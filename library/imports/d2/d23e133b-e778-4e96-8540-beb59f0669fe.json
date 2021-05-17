@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "—Pngtree—cool red game buttons and_5266071_03",
+    "texture": "d0456e4e-603c-4f4a-8105-366233efa5a9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      539,
+      513
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      539,
+      513
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

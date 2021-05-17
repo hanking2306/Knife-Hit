@@ -1,68 +1,160 @@
-2021-05-16T14:05:10.712Z - normal: Load ~/.CocosCreator/settings.json
-2021-05-16T14:05:11.952Z - normal: Initializing Asset Database
-2021-05-16T14:05:11.960Z - normal: checking language setting...
-2021-05-16T14:05:11.961Z - normal: Language: en
-2021-05-16T14:05:13.279Z - success: preview server running at http://localhost:7456
-2021-05-16T14:05:13.283Z - success: protocol editor-framework registered
-2021-05-16T14:05:13.283Z - success: protocol app registered
-2021-05-16T14:05:13.283Z - success: protocol theme registered
-2021-05-16T14:05:13.283Z - success: protocol packages registered
-2021-05-16T14:05:13.283Z - success: protocol uuid registerred
-2021-05-16T14:05:13.283Z - success: protocol db registerred
-2021-05-16T14:05:13.284Z - success: protocol thumbnail registerred
-2021-05-16T14:05:13.284Z - success: protocol unpack registerred
-2021-05-16T14:05:13.284Z - success: protocol disable-commonjs registerred
-2021-05-16T14:05:14.199Z - normal: connected!
-2021-05-16T14:05:14.201Z - normal: Check project D:\Cocos\Knife-Hit
-2021-05-16T14:05:14.204Z - normal: Initializing project D:\Cocos\Knife-Hit
-2021-05-16T14:05:14.943Z - normal: Initializing Cocos2d
-2021-05-16T14:05:17.598Z - normal: Initializing engine extends
-2021-05-16T14:05:17.740Z - success: alipay-adapter loaded
-2021-05-16T14:05:17.746Z - success: asset-db-debugger loaded
-2021-05-16T14:05:17.749Z - success: baidu-adapter loaded
-2021-05-16T14:05:17.757Z - success: color-picker loaded
-2021-05-16T14:05:18.069Z - success: fb-audience-network loaded
-2021-05-16T14:05:18.212Z - success: fb-live-stream loaded
-2021-05-16T14:05:18.217Z - success: google-play-instant loaded
-2021-05-16T14:05:18.225Z - success: huawei-runtime loaded
-2021-05-16T14:05:18.806Z - success: cpk-publish loaded
-2021-05-16T14:05:18.807Z - success: jsb-adapter loaded
-2021-05-16T14:05:18.816Z - success: oppo-runtime loaded
-2021-05-16T14:05:18.821Z - success: package-manager loaded
-2021-05-16T14:05:19.066Z - success: qqplay-adapter loaded
-2021-05-16T14:05:19.069Z - success: runtime-dev-tools loaded
-2021-05-16T14:05:19.076Z - success: sdkbox loaded
-2021-05-16T14:05:19.080Z - success: tester loaded
-2021-05-16T14:05:19.083Z - success: ui-kit-preview-extra loaded
-2021-05-16T14:05:19.086Z - success: ui-kit-preview loaded
-2021-05-16T14:05:19.090Z - success: ui-kit loaded
-2021-05-16T14:05:19.100Z - success: vivo-runtime loaded
-2021-05-16T14:05:19.101Z - success: weapp-adapter loaded
-2021-05-16T14:05:19.102Z - success: xiaomi-adapter loaded
-2021-05-16T14:05:19.106Z - success: alipay-minigame loaded
-2021-05-16T14:05:19.232Z - success: assets loaded
-2021-05-16T14:05:19.235Z - success: builder loaded
-2021-05-16T14:05:19.842Z - success: cocos-services loaded
-2021-05-16T14:05:19.849Z - success: console loaded
-2021-05-16T14:05:19.958Z - success: fb-instant-games loaded
-2021-05-16T14:05:19.966Z - success: game-window loaded
-2021-05-16T14:05:19.969Z - success: google-instant-games loaded
-2021-05-16T14:05:19.978Z - success: hierarchy loaded
-2021-05-16T14:05:19.983Z - success: inspector loaded
-2021-05-16T14:05:19.986Z - success: keystore loaded
-2021-05-16T14:05:19.995Z - success: node-library loaded
-2021-05-16T14:05:19.998Z - success: package-asset loaded
-2021-05-16T14:05:19.999Z - success: preferences loaded
-2021-05-16T14:05:20.003Z - success: project-exporter loaded
-2021-05-16T14:05:20.005Z - success: project-importer loaded
-2021-05-16T14:05:20.010Z - success: project-settings loaded
-2021-05-16T14:05:20.015Z - success: scene loaded
-2021-05-16T14:05:20.018Z - success: simulator-debugger loaded
-2021-05-16T14:05:20.020Z - success: sprite-editor loaded
-2021-05-16T14:05:20.025Z - success: store loaded
-2021-05-16T14:05:20.032Z - success: timeline loaded
-2021-05-16T14:05:20.038Z - success: xiaomi-runtime loaded
-2021-05-16T14:05:23.361Z - normal: Loading packages
-2021-05-16T14:05:23.369Z - normal: Watching packages
-2021-05-16T14:05:24.630Z - normal: Run Application
-2021-05-16T14:05:24.831Z - info: Cocos Services load base data!
+2021-05-17T02:33:53.154Z - normal: Load ~/.CocosCreator/settings.json
+2021-05-17T02:33:53.200Z - normal: Initializing Asset Database
+2021-05-17T02:33:53.202Z - normal: checking language setting...
+2021-05-17T02:33:53.202Z - normal: Language: en
+2021-05-17T02:33:53.869Z - success: preview server running at http://localhost:7456
+2021-05-17T02:33:53.878Z - success: protocol editor-framework registered
+2021-05-17T02:33:53.878Z - success: protocol app registered
+2021-05-17T02:33:53.878Z - success: protocol theme registered
+2021-05-17T02:33:53.879Z - success: protocol packages registered
+2021-05-17T02:33:53.879Z - success: protocol uuid registerred
+2021-05-17T02:33:53.879Z - success: protocol db registerred
+2021-05-17T02:33:53.879Z - success: protocol thumbnail registerred
+2021-05-17T02:33:53.879Z - success: protocol unpack registerred
+2021-05-17T02:33:53.879Z - success: protocol disable-commonjs registerred
+2021-05-17T02:33:55.667Z - normal: connected!
+2021-05-17T02:33:55.669Z - normal: Check project /Users/gemi/Desktop/Knife-Hit
+2021-05-17T02:33:55.670Z - normal: Initializing project /Users/gemi/Desktop/Knife-Hit
+2021-05-17T02:33:56.009Z - normal: Initializing Cocos2d
+2021-05-17T02:33:56.648Z - normal: Initializing engine extends
+2021-05-17T02:33:56.677Z - success: alipay-adapter loaded
+2021-05-17T02:33:56.686Z - success: asset-db-debugger loaded
+2021-05-17T02:33:56.691Z - success: baidu-adapter loaded
+2021-05-17T02:33:56.693Z - success: color-picker loaded
+2021-05-17T02:33:56.833Z - success: fb-audience-network loaded
+2021-05-17T02:33:56.909Z - success: fb-live-stream loaded
+2021-05-17T02:33:56.912Z - success: google-play-instant loaded
+2021-05-17T02:33:56.917Z - success: huawei-runtime loaded
+2021-05-17T02:33:57.124Z - success: cpk-publish loaded
+2021-05-17T02:33:57.125Z - success: jsb-adapter loaded
+2021-05-17T02:33:57.130Z - success: oppo-runtime loaded
+2021-05-17T02:33:57.134Z - success: package-manager loaded
+2021-05-17T02:33:57.273Z - success: qqplay-adapter loaded
+2021-05-17T02:33:57.275Z - success: runtime-dev-tools loaded
+2021-05-17T02:33:57.280Z - success: sdkbox loaded
+2021-05-17T02:33:57.284Z - success: tester loaded
+2021-05-17T02:33:57.287Z - success: ui-kit-preview-extra loaded
+2021-05-17T02:33:57.290Z - success: ui-kit-preview loaded
+2021-05-17T02:33:57.292Z - success: ui-kit loaded
+2021-05-17T02:33:57.297Z - success: vivo-runtime loaded
+2021-05-17T02:33:57.298Z - success: weapp-adapter loaded
+2021-05-17T02:33:57.299Z - success: xiaomi-adapter loaded
+2021-05-17T02:33:57.301Z - success: alipay-minigame loaded
+2021-05-17T02:33:57.334Z - success: assets loaded
+2021-05-17T02:33:57.336Z - success: builder loaded
+2021-05-17T02:33:57.568Z - success: cocos-services loaded
+2021-05-17T02:33:57.574Z - success: console loaded
+2021-05-17T02:33:57.599Z - success: fb-instant-games loaded
+2021-05-17T02:33:57.603Z - success: game-window loaded
+2021-05-17T02:33:57.604Z - success: google-instant-games loaded
+2021-05-17T02:33:57.609Z - success: hierarchy loaded
+2021-05-17T02:33:57.614Z - success: inspector loaded
+2021-05-17T02:33:57.616Z - success: keystore loaded
+2021-05-17T02:33:57.622Z - success: node-library loaded
+2021-05-17T02:33:57.623Z - success: package-asset loaded
+2021-05-17T02:33:57.625Z - success: preferences loaded
+2021-05-17T02:33:57.628Z - success: project-exporter loaded
+2021-05-17T02:33:57.633Z - success: project-importer loaded
+2021-05-17T02:33:57.636Z - success: project-settings loaded
+2021-05-17T02:33:57.640Z - success: scene loaded
+2021-05-17T02:33:57.642Z - success: simulator-debugger loaded
+2021-05-17T02:33:57.644Z - success: sprite-editor loaded
+2021-05-17T02:33:57.648Z - success: store loaded
+2021-05-17T02:33:57.655Z - success: timeline loaded
+2021-05-17T02:33:57.665Z - success: xiaomi-runtime loaded
+2021-05-17T02:34:02.976Z - info: Cocos Services load base data!
+2021-05-17T02:34:03.177Z - normal: Loading packages
+2021-05-17T02:34:03.186Z - normal: Watching packages
+2021-05-17T02:34:03.259Z - normal: Run Application
+2021-05-17T02:35:56.952Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/gemi/Desktop/Knife-Hit/build",
+  "debug": false,
+  "dest": "/Users/gemi/Desktop/Knife-Hit/build/web-mobile",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.Knife-Hit",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "3fa4cdf1-0394-407f-86e9-09192086247e",
+    "9843cfee-97f4-4229-90bc-dba03e589f45",
+    "84006eb7-0098-4433-b29d-38be8cefceda",
+    "68759a87-fd8a-4d0f-b615-83fb3f0a830b",
+    "ee3cd3b3-c49c-419f-ba0c-b1f95d9c7cd7",
+    "65a7e0d1-fc0b-4250-bf20-624740f1c40f"
+  ],
+  "sourceMaps": false,
+  "startScene": "3fa4cdf1-0394-407f-86e9-09192086247e",
+  "template": "link",
+  "title": "Knife-Hit",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "separate_engine": false,
+    "subContext": ""
+  },
+  "xxteaKey": "77ce7893-5dbe-48",
+  "zipCompressJs": true,
+  "project": "/Users/gemi/Desktop/Knife-Hit",
+  "projectName": "Knife-Hit",
+  "debugBuildWorker": false
+}
+2021-05-17T02:35:56.955Z - normal: Building /Users/gemi/Desktop/Knife-Hit
+2021-05-17T02:35:56.955Z - normal: Destination /Users/gemi/Desktop/Knife-Hit/build/web-mobile
+2021-05-17T02:35:57.070Z - normal: Delete /Users/gemi/Desktop/Knife-Hit/build/web-mobile/subpackages/**/*,/Users/gemi/Desktop/Knife-Hit/build/web-mobile/**/*
+2021-05-17T02:36:43.928Z - normal: Start building assets
+2021-05-17T02:36:43.929Z - normal: Start spawn build-worker
+2021-05-17T02:36:44.419Z - normal: Finish spawn build-worker
+2021-05-17T02:36:44.419Z - normal: Start init build-worker
+2021-05-17T02:36:46.292Z - normal: Finish init build-worker
+2021-05-17T02:36:46.292Z - normal: Start build-assets in worker
+2021-05-17T02:36:46.774Z - normal: Finish build-assets in worker
+2021-05-17T02:36:46.779Z - normal: Finish building assets
+2021-05-17T02:36:46.798Z - normal: Start building plugin scripts
+2021-05-17T02:36:46.879Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-17T02:36:46.886Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2021-05-17T02:36:46.899Z - normal: Built to "/Users/gemi/Desktop/Knife-Hit/build/web-mobile" successfully
+2021-05-17T03:12:13.091Z - info: shutdown preview server
